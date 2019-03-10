@@ -1,0 +1,229 @@
+<html lang="cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>重庆工商大学Admin系统</title>
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="/css/nifty.min.css" rel="stylesheet" />
+    <link href="/css/selfTagOne.css" rel="stylesheet" />
+    <!--=================================================-->
+
+    <!--Pace - Page Load Progress Par [OPTIONAL]-->
+    <link href="/plugins/pace/pace.min.css" rel="stylesheet">
+    <script src="/plugins/pace/pace.min.js"></script>
+
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+
+<body>
+<div id="container" class="cls-container">
+    <!-- BACKGROUND IMAGE -->
+    <!--===================================================-->
+    <div id="bg-overlay" class="bg-img" style="background-image: url('/img/bg-img/bg2_2.jpg');"></div>
+
+    <!-- LOGIN FORM -->
+    <!--===================================================-->
+    <div class="cls-content">
+        <div class="cls-content-sm panel">
+            <div class="panel-body">
+                <div class="mar-ver pad-btm">
+                    <h1 class="h3">重庆工商大学管理系统</h1>
+                    <p>管理登录</p>
+                </div>
+                <form   id="login-form">
+                    <div class="form-group">
+                        <input type="text" name="txtbUserName" id="txtbUserName" class="form-control" placeholder="用户名" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="password"  name="txtbPassword" id="txtbPassword" class="form-control" placeholder="密码">
+                    </div>
+
+                    <div class="input-group mar-btm">
+
+                        <input type="text" name="imageCode" id="imageCode" placeholder="验证码" class="form-control" />
+                        <span class="input-group-btn">
+
+                          <a href="javascript:void(0);" rel="external nofollow" title="点击更换验证码"  class="btn " style="padding: 2px;">
+                            <img style="" id="imgVerify" name="imgVerify" src="" alt="更换验证码" height="25"  onclick="getVerify(this);">
+                        </a>
+
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="checkbox pad-btm text-left">
+                        <input id="demo-form-checkbox" class="magic-checkbox" type="checkbox">
+                        <label for="demo-form-checkbox">记住我</label>
+                    </div>
+
+                    <a class="btn btn-primary btn-lg btn-block"   onclick=" login();return false;">登录</a>
+                </form>
+            </div>
+
+            <div class="pad-all">
+                <a href="pages-password-reminder.html" class="btn-link mar-rgt">From TMS</a>
+                <a href="pages-register.html" class="btn-link mar-lft">@copyrights 2019</a>
+
+                <div class="media pad-top bord-top">
+                    <div class="pull-right">
+                        <a href="#" class="pad-rgt"><i class="demo-psi-facebook icon-lg text-primary"></i></a>
+                        <a href="#" class="pad-rgt"><i class="demo-psi-twitter icon-lg text-info"></i></a>
+                        <a href="#" class="pad-rgt"><i class="demo-psi-google-plus icon-lg text-danger"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================================-->
+</div>
+<!--===================================================-->
+<!-- END OF CONTAINER -->
+
+<!--JAVASCRIPT-->
+<!--=================================================-->
+
+<!--jQuery [ REQUIRED ]-->
+<script src="/js/jquery.min.js"></script>
+<script src="/plugins/jquery-validate/jquery.validate.min.js"></script>
+
+<!--BootstrapJS [ RECOMMENDED ]-->
+<script src="/js/bootstrap.min.js"></script>
+
+<!--NiftyJS [ RECOMMENDED ]-->
+<script src="/js/nifty.min.js"></script>
+
+<!--=================================================-->
+
+<script type="text/javascript">
+    //单击重新改变验证码
+
+
+    $(function () {
+        $("#txtbValidation").on("keydown", keyDownSearch);//回车登录支持
+        $("#imgVerify").click()
+
+        // Validation
+        $("#login-form").validate({
+            // Rules for form validation
+            rules:
+                {
+                    txtbUserName: { required: true },
+                    txtbPassword: { required: true },
+                    imageCode:{required: true }
+                    //txtbValidation: { required: true }
+                },
+            messages:
+                {
+                    txtbUserName: { required: "用户名不能为空", },
+                    txtbPassword: { required: "密码不能为空" },
+                    imageCode: { required: "验证码不能为空" }
+                },
+
+            // Do not change code below
+            errorPlacement: function (error, element) {
+                error.insertAfter(element.parent());
+            }
+        });
+    });
+
+    function login() {
+        if ($("#login-form").valid()) {
+            var loginName = $("#txtbUserName").val();
+            var password = $("#txtbPassword").val();   //登录用户的密码
+            var validcode = $("#imageCode").val();
+
+            $.ajax({
+                url: '/webapi/login/validateUser',
+                type: 'POST',
+                cache: false,
+                data: { username: loginName, password: password, verify: validcode },
+                success: function (resultObj) {
+                    var result = resultObj.code;
+                    var url = '/system/index';//resultObj.mainURL
+
+                    switch (result) {
+                        case 1:
+                            location.href = url;
+
+                            break;
+                        case 0:
+                            ClickRemoveChangeCode();
+                            alert("错误的用户名或密码!");
+                            //清空密码以及验证码栏
+                            clearInput();
+                            break;
+                        case -1:
+                            $("#imgVerify").click()
+                            alert("非法参数!");
+
+                            //清空密码以及验证码栏
+                            clearInput();
+                            break;
+                        case -2:
+
+                            $("#imgVerify").click()
+                            alert("验证码错误！");
+                            //清空密码以及验证码栏
+                            clearInput();
+                            break;
+                        case -3:
+                            $("#imgVerify").click()
+                            alert("出错了！无法接受的用户名/密码!");
+
+                            //清空密码以及验证码栏
+                            clearInput();
+                            break;
+                    }
+                }
+
+
+
+            });
+        }
+
+    }//end login
+
+
+    //清空密码以及验证码
+    function clearInput() {
+        $("#txtbPassword").val('');   //登录用户的密码
+        $("#txtbValidation").val('');  //验证码
+    }
+
+
+    function keyDownSearch(e) {
+        // 兼容FF和IE和Opera
+        var theEvent = e || window.event;
+        var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if (code == 13) {
+
+            login();//具体处理函数
+            return false;
+        }
+        return true;
+    }
+    //获取验证码
+    function getVerify(obj) {
+        obj.src = "/login/getVerify?" + Math.random();
+        //console.log(obj)
+    }
+
+
+</script>
+
+</body>
+</html>

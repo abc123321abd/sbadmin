@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='日志详细信息')"><!-- layout文件路径-->
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link rel="stylesheet" href="/plugins/ztree/css/zTreeStyle/zTreeStyle.css">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="panel">
+            <div class="panel-body">
+                <input  type="hidden" id="hidId" />
+
+                <form  id="formLog" class="smart-form" method="get" action="">
+                    <fieldset>
+                        <input  type="hidden" name="id" />
+
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>用户ID</label>
+                                    <input id="userId" name="userId" class="form-control"  type="text">
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>用户名</label>
+                                    <input id="username" name="username" class="form-control"  type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>事件</label>
+                                    <input type="text" class="form-control" placeholder="" id="operation" name="operation">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>响应时间</label>
+                                    <input type="text" class="form-control" placeholder="" id="time" name="time">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>建立时间</label>
+                                    <input type="date" class="form-control" placeholder=""  id="gmtCreate" name="gmtCreate">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>IP地址</label>
+                                    <input type="text" class="form-control" placeholder=""  id="ip"  name="ip">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>请求方法</label>
+                            <textarea class="form-control" rows="3" placeholder=""  id="method" name="method"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>请求参数</label>
+                            <textarea class="form-control" rows="5" placeholder=""  id="params" name="params"></textarea>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+                <!--<div class="form-group">
+                    <a   class="btn btn-info btn-labeled pull-right" onclick="insertOrUpdateForm();">
+                        <i class="btn-label ion-ios-checkmark"></i>提交</a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!--===================================================-->
+    <!--End page content-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+    <script src="/plugins/ztree/js/jquery.ztree.all.js"></script>
+    <script src="/js/editCommon.js"></script>
+    <script src="/pagejs/system/log/edit.js"></script>
+</div>
+
+</html>

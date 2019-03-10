@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="layout/commonlayout(title='配置详细信息')"><!-- layout文件路径-->
+
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link rel="stylesheet" href="/plugins/ztree/css/zTreeStyle/zTreeStyle.css">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="panel">
+            <div class="panel-body">
+                <form id="formconfig"  class="smart-form" method="post" action="">
+                    <fieldset>
+                        <input id="id" name="id" type="hidden">
+                        <!-- <div class="row">
+                            <div class="col-sm-6">为两列准备的</div>
+                            <div class="col-sm-6">不要就删除</div>
+                        </div>-->
+                        <div class="form-group">
+                            <label class="control-label">名称</label>
+                            <input id="title" name="title" class="form-control" type="text"
+                                   placeholder='' data-rule-maxlength="255"
+                                   data-msg-maxlength='亲，太多啦，最多255字符!!'>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="control-label">类型</label>
+                                    <input id="type" name="type" class="form-control"
+                                           type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="control-label">键名</label>
+                                    <input id="key" name="key" class="form-control" type="text"
+                                           placeholder='键名' data-rule-maxlength="255"
+                                           data-msg-maxlength='亲，太多啦，最多255字符!!'>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="control-label">文本</label>
+                                    <input id="text" name="text" class="form-control" type="text"
+                                           placeholder='' data-rule-maxlength="255"
+                                           data-msg-maxlength='亲，太多啦，最多255字符!!'>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label class="control-label">数值</label>
+                                    <input id="value" name="value" class="form-control"
+                                           type="text" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">备注</label>
+                            <textarea id="memo" name="memo" class="form-control"  rows='5'
+                                      placeholder='备注' data-rule-maxlength="255"
+                                      data-msg-maxlength='亲，太多啦，最多255字符!!'></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+                <!-- form end -->
+
+                <div class="form-group">
+                    <a class="btn btn-info btn-labeled pull-right" onclick="insertOrUpdateForm();">
+                        <i class="btn-label ion-ios-checkmark"></i> 提交</a>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="hidId"/>
+
+    </div>
+    <!--===================================================-->
+    <!--End page content-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+    <script src="/js/editCommon.js"></script>
+    <script src="/pagejs/system/config/edit.js"></script>
+</div>
+
+</html>

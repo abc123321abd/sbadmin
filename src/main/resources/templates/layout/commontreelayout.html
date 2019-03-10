@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="/assert/bootstrap/css/bootstrap.min.css">
+
+    <link href="/css/JsTree/style.min.css" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/assert/font-awesome/css/font-awesome.min.css">
+
+
+    <!-- iCheck -->
+    <link rel="stylesheet" href="/assert/iCheck/square/blue.css">
+    <link rel="stylesheet" href="/assert/boostraptable/bootstrap-table.min.css">
+
+    <link rel="stylesheet" href="/assert/jqTreeGrid/jquery.treegrid.css">
+    <link rel="stylesheet" href="/assert/toastr/toastr.min.css">
+
+    <script src="/assert/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assert/adminlte/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/assert/adminlte/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="/assert/summernote/summernote.css">
+    <link rel="stylesheet" href="/assert/my-web-css.css">
+
+<style>
+    /*bootstrap无间距栅格*/
+    .row.no-gutter {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row.no-gutter > [class*='col-'] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .row.min-gutter {
+        margin-left:4px;
+        margin-right: 4px;
+    }
+
+    .row.min-gutter > [class*='col-'] {
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+
+    btn-outline {
+        /* border: 1px solid #fff; */
+        /* background: transparent; */
+        /* color: #fff; */
+    }
+
+    .btn-default.btn-outline{
+        background-color: #f4f4f4;
+        color: #444;
+        border-color: #ddd;
+    }
+
+    .tms-table-button{
+        width:90px;margin-left:20px;
+    }
+    .tms-dialog-body{
+        margin: 5px 20px;
+    }
+
+    .btn-social>:first-child {
+
+        font-size: 1em;
+
+    }
+    .tableicon{
+        margin-left: 10px;
+
+    }
+
+
+</style>
+
+
+</head>
+<body  class="skin-blue layout-top-nav">
+
+
+    <!-- Content Wrapper. Contains page content -->
+
+    <div class="wrapper">
+        <div class="content-wrapper" layout:fragment="content">
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="/assert/bootstrap/js/bootstrap.js"></script>
+    <script src="/assert/arttemplate/template-web.js"></script>
+
+    <script src="/assert/jqTreeGrid/jquery.treegrid.min.js"></script>
+    <script src="/assert/jqTreeGrid/jquery.treegrid.extension.js"></script>
+    <script src="/assert/jqTreeGrid/jquery.treegrid.bootstrap3.js"></script>
+
+<script src="/assert/layer/layer.js"></script>
+    <script src="/assert/jquery-validate/jquery.validate.js"></script>
+    <script src="/assert/jquery-validate/localization/messages_zh.js"></script>
+    <script src="/assert/toastr/toastr.min.js"></script>
+
+    <script src="/assert/iCheck/icheck.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+
+            toastr.options = {
+                "closeButton": false,
+                "debug": false,
+                "newestOnTop": false,
+                "progressBar": false,
+                "positionClass": "toast-bottom-right",
+                "preventDuplicates": false,
+                "onclick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "2000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+
+
+
+        })
+
+    </script>
+
+    <div  layout:fragment="script">
+
+
+</div>
+
+
+</body>
+</html>

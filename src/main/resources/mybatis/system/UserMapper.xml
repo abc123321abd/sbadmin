@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="cn.edu.ctbu.sbadmin.system.dao.UserDao">
+
+
+
+    <select id="findByUserName" resultType="cn.edu.ctbu.sbadmin.system.domain.UserDO">
+        SELECT `id`,`username`,`truename`,`password`,`dept_id`,`email`,`mobile`,`status`,`user_id_create`,`gmt_create`,`gmt_modified`,`sex`,`birth`,`img_url`,`live_address`,`hobby`,`province`,`city`,`district`,`is_deleted`,`gmt_delete`,`delete_userid`,`introduce`,`img`,`memo`,`role_name`,`role_ids`,`home_url`,`manager_id`,`manager_name`,`other_password`,`wxids`,`wxname` FROM sys_user
+        where username = #{value}
+        AND is_deleted &lt; 1
+    </select>
+
+
+</mapper>

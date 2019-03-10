@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='部门详细信息')"><!-- layout文件路径-->
+
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link rel="stylesheet" href="/plugins/ztree/css/zTreeStyle/zTreeStyle.css">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="panel">
+            <div class="panel-body">
+                <form id="formdept" class="smart-form" method="get" action="">
+                    <fieldset>
+                        <input type="hidden" name="id"/>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>上级结点</label>
+                                    <input id="parentIdName" name="parentIdName" class="form-control"
+                                           type="text" disabled="disabled"/>
+                                    <input id="parentId" name="parentId" class="form-control"
+                                           type="hidden" placeholder="父节点Id">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>部门名称</label>
+                                    <input id="name" name="name"
+                                           class="form-control" data-rule-required="true"
+                                           data-msg-required="必须输入部门名称"
+                                           type="text" placeholder="部门名称"
+                                           data-rule-maxlength="40"
+                                           data-msg-maxlength='亲，太多啦，最多40字符!!'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>电话</label>
+                                    <input id="phone" name="phone"
+                                           class="form-control"
+                                           data-msg-required="必须输入电话"
+                                           type="text" placeholder="电话"
+                                           data-rule-maxlength="50"
+                                           data-msg-maxlength='亲，太多啦，最多50字符!!'>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+
+                                    <label>排序</label>
+                                    <input id="orderNum" name="orderNum"
+                                           class="form-control"
+                                           type="text" placeholder="排序">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>经度</label>
+                                    <input id="longtitude" name="longtitude"
+                                           class="form-control"
+                                           data-msg-required="必须输入经度"
+                                           type="text" placeholder="经度"
+                                           data-rule-maxlength="20"
+                                           data-msg-maxlength='亲，太多啦，最多20字符!!'>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>纬度</label>
+                                    <input id="latitude" name="latitude"
+                                           class="form-control"
+                                           data-msg-required="必须输入纬度"
+                                           type="text" placeholder="纬度"
+                                           data-rule-maxlength="20"
+                                           data-msg-maxlength='亲，太多啦，最多20字符!!'>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>备注</label>
+                            <input id="memo" name="memo"
+                                   class="form-control"
+                                   data-msg-required="必须输入备注"
+                                   type="text" placeholder="备注"
+                                   data-rule-maxlength="200"
+                                   data-msg-maxlength='亲，太多啦，最多200字符!!'>
+                        </div>
+
+                        <div class="form-group">
+                            <label>地址</label>
+                            <input id="address" name="address"
+                                   class="form-control"
+                                   data-msg-required="必须输入地址"
+                                   type="text" placeholder="地址"
+                                   data-rule-maxlength="200"
+                                   data-msg-maxlength='亲，太多啦，最多200字符!!'>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <div class="form-group">
+                    <a   class="btn btn-info btn-labeled pull-right" onclick="insertOrUpdateForm();">
+                        <i class="btn-label ion-ios-checkmark"></i>提交</a>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="hidId"/>
+
+    </div>
+    <!--===================================================-->
+    <!--End page content-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+    <script src="/js/editCommon.js"></script>
+    <script src="/pagejs/system/dept/edit.js"></script>
+</div>
+
+</html>

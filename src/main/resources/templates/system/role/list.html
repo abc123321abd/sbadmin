@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='角色页')"><!-- layout文件路径-->
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link href="/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css" rel="stylesheet">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel">
+                    <div class="panel-body ">
+                        <div class="row" style="padding-bottom: 20px;" >
+                            <div class="col-md-3">
+                                <h3 class="panel-title  " style="padding-left:0;">角色列表
+                                </h3>
+                            </div>
+
+                            <div class="col-md-9">
+                                <button class="btn btn-danger btn-labeled pull-right" style="margin-left: 20px;"  onclick="batchRemove()">
+                                    <i class="btn-label ion-ios-trash-outline"></i>批量删除</button>
+
+                                <button class="btn btn-success btn-labeled pull-right"  style="margin-left: 20px;" onclick="showAddModel();">
+                                    <i class="btn-label ion-plus-round"></i> 新增</button>
+
+                                <div class="btn-group dropdown pull-right" >
+                                    <button class="btn btn-info" onclick="outExcel();">
+                                        <i class="ion-ios-upload-outline"></i>
+                                        导出Excel</button>
+                                    <button class="btn btn-info dropdown-toggle dropdown-toggle-icon" data-toggle="dropdown" type="button" aria-expanded="false">
+                                        <i class="dropdown-caret"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" style="">
+                                        <li><a href="#">导出当前内容</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="clear:both;">
+                        </div>
+
+                        <form class="form-inline" id="srForm" style="margin-bottom: 20px;">
+                             <div class="form-group">
+                                <label for="srid" class="control-label">序号</label>
+                                <input id="srid" name="srid" type="text" class="form-control"
+                                       placeholder="" data-opera="like"  style='width: 80px;'>
+                            </div>
+                            <div class="form-group">
+                                <label for="srroleName" class="control-label">角色名</label>
+                                <input id="srroleName" name="srroleName" type="text" class="form-control"
+                                       placeholder="" data-opera="like">
+                            </div>
+                            <div class="form-group">
+                                <label for="srroleSign" class="control-label">角色标识</label>
+                                <input id="srroleSign" name="srroleSign" type="text" class="form-control"
+                                       placeholder="" data-opera="like">
+                            </div>
+                            <div class="form-group">
+                                <label for="srremark" class="control-label">说明</label>
+                                <input id="srremark" name="srremark" type="text" class="form-control" data-opera="like"
+                                       placeholder="" >
+                            </div>
+
+                            <a class="btn btn-primary" onclick="searchTable();"><i class="fa fa-search" aria-hidden="true" ></i>查询</a>
+                        </form>
+
+                        <div class="panel panel-bordered-primary">
+                            <div class="panel-body">
+                                <table id="roleTable" data-mobile-responsive="true"  class="table table-striped table-bordered  hover" cellspacing="0" width="100%">
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================================-->
+    <!--End page content-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+    <!--shiro控制bootstraptable行内按钮看见性 来自bootdo的创新方案 -->
+    <div>
+        <script type="text/javascript">
+            var s_add_h = 'hidden';
+            var s_edit_h = 'hidden';
+            var s_remove_h = 'hidden';
+        </script>
+    </div>
+
+    <div shiro:hasPermission="system:role:add">
+        <script type="text/javascript">
+            s_add_h = '';
+        </script>
+    </div>
+    <div shiro:hasPermission="system:role:edit">
+        <script type="text/javascript">
+            s_edit_h = '';
+        </script>
+    </div>
+    <div shiro:hasPermission="system:role:remove">
+        <script type="text/javascript">
+            var s_remove_h = '';
+        </script>
+    </div>
+
+    <!--DataTables [ OPTIONAL ]-->
+
+    <script src="/js/jquery.spring-friendly.min.js"></script>
+    <script src="/js/gridCommon.js"></script>
+    <script src="/pagejs/system/role/list.js"></script>
+
+</div>
+
+</html>

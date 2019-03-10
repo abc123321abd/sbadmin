@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='菜单管理页')"><!-- layout文件路径-->
+
+    <th:block th:fragment="css">
+        <!--如果没有内容，请保持 -->
+    </th:block>
+
+    <div th:fragment="content">
+        <!--Page content-->
+        <!--===================================================-->
+        <div id="page-content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="panel">
+                        <div class="panel-body ">
+                            <div class="row" style="padding-bottom: 20px;">
+                                <div class="col-md-3">
+                                    <h3 class="panel-title  " style="padding-left:0;">菜单管理列表
+                                    </h3>
+                                </div>
+
+                                <div class="col-md-9">
+                                    <button class="btn btn-success btn-labeled pull-right" onclick="showAddModel(0);">
+                                        <i class="btn-label ion-plus-round"></i>
+                                        新增一级节点
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div style="clear:both;">
+                            </div>
+
+                            <div class="panel panel-bordered-primary">
+                                <div class="panel-body">
+                                    <table id="menuTable" data-mobile-responsive="true" class="table table-striped table-bordered  hover" cellspacing="0" width="100%">
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===================================================-->
+        <!--End page content-->
+    </div>
+
+    <div th:fragment="scripts">
+        <!--如果没有内容，请保持 -->
+
+        <!--shiro控制bootstraptable行内按钮看见性 来自bootdo的创新方案 -->
+        <div>
+            <script type="text/javascript">
+                var s_add_h = 'hidden';
+                var s_edit_h = 'hidden';
+                var s_remove_h = 'hidden';
+            </script>
+        </div>
+
+        <div shiro:hasPermission="system:menu:add">
+            <script type="text/javascript">
+                s_add_h = '';
+            </script>
+        </div>
+        <div shiro:hasPermission="system:user:edit">
+            <script type="text/javascript">
+                s_edit_h = '';
+            </script>
+        </div>
+        <div shiro:hasPermission="system:user:remove">
+            <script type="text/javascript">
+                var s_remove_h = '';
+            </script>
+        </div>
+
+        <script src="/plugins/jqTreeGrid/jquery.treegrid.extension.js"></script>
+        <script src="/plugins/jqTreeGrid/jquery.treegrid.min.js"></script>
+        <script src="/plugins/jqTreeGrid/jquery.treegrid.bootstrap3.js"></script>
+        <script src="/js/jquery.spring-friendly.min.js"></script>
+        <script src="/js/treeCommon.js"></script>
+        <script src="/pagejs/system/menu/list.js"></script>
+
+    </div>
+
+
+</html>

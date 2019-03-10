@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='菜单管理详细信息')"><!-- layout文件路径-->
+
+    <th:block th:fragment="css">
+        <!--如果没有内容，请保持 -->
+        <!--DataTables [ OPTIONAL ]-->
+        <link rel="stylesheet" href="/plugins/ztree/css/zTreeStyle/zTreeStyle.css">
+    </th:block>
+
+    <div th:fragment="content">
+        <!--Page content-->
+        <!--===================================================-->
+        <div id="page-content">
+            <div class="panel">
+                <div class="panel-body">
+                    <form id="formmenu" class="smart-form" method="post" action="">
+                        <fieldset>
+                            <input id="id" name="id"
+                                   type="hidden">
+
+                            <!-- <div class="row">
+                                <div class="col-sm-6">为两列准备的</div>
+                                <div class="col-sm-6">不要就删除</div>
+                            </div>
+                             -->
+
+                            <div class="form-group">
+                                <label>上级结点</label>
+                                <input id="parentIdName" name="parentIdName" class="form-control"
+                                       type="text" disabled="disabled"/>
+                                <input id="parentId" name="parentId" class="form-control"
+                                       type="hidden" placeholder="父节点Id">
+                            </div>
+
+                            <div class="form-group">
+                                <label>菜单类型：</label>
+                                <div>
+                                    <label class="radio-inline"> <input name="type" type="radio" value="0" /> 目录
+                                    </label>
+                                    <label class="radio-inline"> <input name="type" type="radio" value="1" /> 菜单
+                                    </label>
+                                    <label class="radio-inline"> <input name="type" type="radio" value="2" /> 按钮
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>菜单名称</label>
+                                        <input class="form-control" data-msg-maxlength="亲，太多啦，最多50字符!!" data-msg-required="必须输入菜单名称" data-rule-maxlength="50" data-rule-required="true"
+                                               id="name" name="name" placeholder="" type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>菜单URL</label>
+                                        <input class="form-control" data-msg-maxlength="亲，太多啦，最多200字符!!" data-rule-maxlength="200"
+                                               id="url" name="url" placeholder="" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>权限标识</label>
+                                        <input class="form-control" data-msg-maxlength="亲，太多啦，最多500字符!!" data-rule-maxlength="500"
+                                               id="perms" name="perms" placeholder="多个用逗号分隔，如：user:list,user:create" type="text" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>排序</label>
+                                        <input class="form-control" id="orderNum" name="orderNum" placeholder="" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>图标</label>
+                                <div class="input-group input-group-sm">
+                                    <input class="form-control" id="icon" name="icon" placeholder="" type="text" />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-warning btn-flat" id="ico-btn" type="button">选择图标</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <!-- form end -->
+
+                    <div class="form-group">
+                        <a class="btn btn-info btn-labeled pull-right" onclick="insertOrUpdateForm();">
+                            <i class="btn-label ion-ios-checkmark"></i>提交
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <input type="hidden" id="hidId"/>
+        </div>
+        <!--===================================================-->
+        <!--End page content-->
+    </div>
+
+    <div th:fragment="scripts">
+        <!--如果没有内容，请保持 -->
+        <script src="/js/editCommon.js"></script>
+        <script src="/pagejs/system/menu/edit.js"></script>
+    </div>
+</html>
+
+
+
+

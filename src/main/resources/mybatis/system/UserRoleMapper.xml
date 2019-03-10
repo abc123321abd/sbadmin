@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.edu.ctbu.sbadmin.system.dao.UserRoleDao">
+
+
+    <!--self define-->
+    <select id="listRoleId" resultType="long">
+        select role_id from
+        sys_user_role where
+        user_id=#{userId}
+    </select>
+    <select id="Listm" resultType="cn.edu.ctbu.sbadmin.system.domain.UserRoleDO">
+        select id,user_id,role_id from
+        sys_user_role where
+        user_id=#{userId}
+    </select>
+    <!--end of self define-->
+
+
+    <!--自定义-->
+    <insert id="batchSave">
+        INSERT INTO sys_user_role(user_id, role_id) values
+        <foreach item="item" index="index" collection="list"
+                 separator=",">
+            (#{item.userId},#{item.roleId})
+        </foreach>
+    </insert>
+<!--自定义-->
+
+<!--自定义-->
+    <delete id="removeByUserId">
+        delete from sys_user_role where user_id=#{userId}
+    </delete>
+
+    <!--自定义-->
+
+</mapper>

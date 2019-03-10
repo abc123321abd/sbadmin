@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='角色详细信息')"><!-- layout文件路径-->
+
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link rel="stylesheet" href="/plugins/ztree/css/zTreeStyle/zTreeStyle.css">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="panel">
+            <div class="panel-heading">
+                <div class="panel-control pull-left">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#tab_1" aria-expanded="true">基础属性</a></li>
+                        <li><a data-toggle="tab" href="#tab_2" aria-expanded="false">菜单权限</a></li>
+                    </ul>
+                </div>
+                <h3 class="panel-title">&nbsp;</h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="tab-content padding-10" id="myTabContent">
+                    <div class="tab-pane active" id="tab_1">
+                        <form id="formRole" class="smart-form" method="get" action="">
+                            <fieldset>
+                                <input type="hidden" name="id"/>
+                                <input id="roleId" name="roleId" type="hidden"/>
+                                <input id="menuIds" name="menuIds" type="hidden"/>
+
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>角色名</label>
+                                    <input type="text" class="form-control" placeholder="" id="roleName" name="roleName" required
+                                           data-msg-required="角色名不能为空" maxlength="10"/>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>角色标识:</label>
+                                    <input type="text" class="form-control" placeholder="" minlength="1" required
+                                           data-msg-required="角色标识不能为空" maxlength="50" id="roleSign" name="roleSign">
+                                </div>
+                                <!-- textarea -->
+                                <div class="form-group">
+                                    <label>说明</label>
+                                    <textarea class="form-control" rows="3" placeholder="" minlength="1"
+                                              maxlength="50" data-msg-maxlength="亲，太多啦，最后50字符!!"
+                                              name="remark" id="remark"></textarea>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- /.tab-pane -->
+                    <div class="tab-pane" id="tab_2">
+                        <ul id="ztreeMenu" class="ztree"></ul>
+                    </div>
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+                <div class="form-group">
+                    <a   class="btn btn-info btn-labeled pull-right" onclick="insertOrUpdateForm();">
+                        <i class="btn-label ion-ios-checkmark"></i>提交</a>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="hidId"/>
+    </div>
+    <!--===================================================-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+    <script src="/plugins/ztree/js/jquery.ztree.all.js"></script>
+    <script src="/js/editCommon.js"></script>
+    <script src="/pagejs/system/role/edit.js"></script>
+</div>
+
+
+</html>

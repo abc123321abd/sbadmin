@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="layout/commonlayout(title='用户页')"><!-- layout文件路径-->
+
+<th:block th:fragment="css">
+    <!--如果没有内容，请保持 -->
+    <!--DataTables [ OPTIONAL ]-->
+    <link href="/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css" rel="stylesheet">
+</th:block>
+
+<div th:fragment="content">
+    <!--Page content-->
+    <!--===================================================-->
+    <div id="page-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel">
+                    <div class="panel-body ">
+                        <div class="row" style="padding-bottom: 20px;">
+                            <div class="col-md-3">
+                                <h3 class="panel-title  " style="padding-left:0;">用户列表
+                                </h3>
+                            </div>
+
+                            <div class="col-md-9">
+                                <button class="btn btn-danger btn-labeled pull-right" style="margin-left: 20px;" onclick="batchRemove();">
+                                    <i class="btn-label ion-ios-trash-outline"></i>批量删除
+                                </button>
+
+                                <button class="btn btn-success btn-labeled pull-right" style="margin-left: 20px;" onclick="showAddModel();">
+                                    <i class="btn-label ion-plus-round"></i> 新增
+                                </button>
+
+                                <!--<div class="btn-group dropdown pull-right" >-->
+                                <!--<button class="btn btn-info" onclick="outExcel();">-->
+                                <!--<i class="ion-ios-upload-outline"></i>-->
+                                <!--导出Excel</button>-->
+                                <!--<button class="btn btn-info dropdown-toggle dropdown-toggle-icon" data-toggle="dropdown" type="button" aria-expanded="false">-->
+                                <!--<i class="dropdown-caret"></i>-->
+                                <!--</button>-->
+                                <!--<ul class="dropdown-menu" style="">-->
+                                <!--<li><a href="#">导出当前内容</a></li>-->
+                                <!--</ul>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+
+                        <div style="clear:both;">
+                        </div>
+
+                        <form class="form-inline" id="srForm" style="margin-bottom: 20px;">
+                            <div class="form-group">
+                                <label class='control-label' for="srid" >用户ID</label>
+                                <input id="srid" name="srid" class="form-control" type="text" placeholder="" data-opera="like"  style='width: 80px;'>
+                            </div>
+                            <div class="form-group">
+                                <label class='control-label' for="srusername" >用户名</label>
+                                <input id="srusername" name="srusername" class="form-control" type="text" placeholder="" data-opera="like"  style='width: 120px;'>
+                            </div>
+
+                            <div class="form-group">
+                                <label class='control-label' for="srtruename">真实姓名</label>
+                                <input id="srtruename" name="srtruename" class="form-control" type="text" placeholder="" data-opera="like" style='width: 120px;'>
+                            </div>
+
+                            <div class="form-group">
+                                <label class='control-label' for="srdeptId">所属部门</label>
+                                <select id="srdeptId" name="srdeptId" class="form-control" data-opera="like" style='width: 130px;'>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class='control-label' for="srroleIds">角色</label>
+                                <select id="srroleIds" name="srroleIds" class="form-control" data-opera="like" style='width: 130px;'>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class='control-label' for="srstatus">用户状态</label>
+                                <select id="srstatus" name="srstatus" class="form-control" data-opera="like" style='width: 100px;'>
+                                </select>
+                            </div>
+
+                            <a class="btn btn-primary" onclick="searchTable();"><i class="fa fa-search" aria-hidden="true"></i>查询</a>
+                        </form>
+
+                        <!--- end of common table ---->
+                        <div class="panel panel-bordered-primary">
+                            <div class="panel-body">
+                                <table id="userTable" data-mobile-responsive="true"  class="table table-striped table-bordered" cellspacing="0" width="100%">
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===================================================-->
+    <!--End page content-->
+</div>
+
+<div th:fragment="scripts">
+    <!--如果没有内容，请保持 -->
+
+    <!--shiro控制bootstraptable行内按钮看见性 来自bootdo的创新方案 -->
+    <div>
+        <script type="text/javascript">
+            var s_add_h = 'hidden';
+            var s_edit_h = 'hidden';
+            var s_remove_h = 'hidden';
+        </script>
+    </div>
+
+    <div shiro:hasPermission="system:user:add">
+        <script type="text/javascript">
+            s_add_h = '';
+        </script>
+    </div>
+    <div shiro:hasPermission="system:user:edit">
+        <script type="text/javascript">
+            s_edit_h = '';
+        </script>
+    </div>
+    <div shiro:hasPermission="system:user:remove">
+        <script type="text/javascript">
+            var s_remove_h = '';
+        </script>
+    </div>
+
+    <!--DataTables [ OPTIONAL ]-->
+
+    <script src="/js/jquery.spring-friendly.min.js"></script>
+    <script src="/js/gridCommon.js?2"></script>
+    <script src="/pagejs/system/user/list.js?2"></script>
+</div>
+
+
+</html>
