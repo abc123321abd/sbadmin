@@ -1,0 +1,1107 @@
+2019-06-03 11:52:24 -Starting SbadminApplication on DESKTOP-PQO8CHD with PID 11540 (started by abc in E:\idea project\lablog)
+2019-06-03 11:52:24 -The following profiles are active: dev
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-06-03 11:52:30 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-06-03 11:52:30 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-03 11:52:30 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-03 11:52:31 -Finished Spring Data repository scanning in 195ms. Found 0 repository interfaces.
+2019-06-03 11:52:33 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$200c0b47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:33 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$394ac255] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:34 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-06-03 11:52:35 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-06-03 11:52:35 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:35 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-03 11:52:38 -Tomcat initialized with port(s): 80 (http)
+2019-06-03 11:52:39 -Initializing ProtocolHandler ["http-nio-80"]
+2019-06-03 11:52:39 -Starting service [Tomcat]
+2019-06-03 11:52:39 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-03 11:52:39 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Users\abc\AppData\Local\Microsoft\WindowsApps;;.]
+2019-06-03 11:52:42 -Initializing Spring embedded WebApplicationContext
+2019-06-03 11:52:42 -Root WebApplicationContext: initialization completed in 17395 ms
+2019-06-03 11:52:42 -Filter xssFilter was not registered (disabled)
+2019-06-03 11:52:44 -{dataSource-1} inited
+2019-06-03 11:52:45 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1de76cc7, started on Mon Jun 03 11:52:24 CST 2019
+2019-06-03 11:52:46 -Using default implementation for ThreadExecutor
+2019-06-03 11:52:46 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-06-03 11:52:46 -Quartz Scheduler v.2.2.1 created.
+2019-06-03 11:52:46 -RAMJobStore initialized.
+2019-06-03 11:52:46 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-06-03 11:52:46 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-06-03 11:52:46 -Quartz scheduler version: 2.2.1
+2019-06-03 11:52:46 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@7b91d9f
+2019-06-03 11:52:46 -通用 Mapper 警告信息: <[EntityColumn{table=dim_term, property='year', column='`year`', javaType=int, jdbcType=null, typeHandler=null, id=false, identity=false, blob=false, generator='null', orderBy='null', orderPriority='0', insertable=true, updatable=true, order=DEFAULT}]> 使用了基本类型，基本类型在动态 SQL 中由于存在默认值，因此任何时候都不等于 null，建议修改基本类型为对应的包装类型!
+2019-06-03 11:52:50 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-03 11:52:51 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-06-03 11:52:51 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-06-03 11:52:51 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-06-03 11:52:51 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-06-03 11:52:51 -Clear EntityHelper entityTableMap cache.
+2019-06-03 11:52:52 -Context refreshed
+2019-06-03 11:52:52 -Found 1 custom documentation plugin(s)
+2019-06-03 11:52:52 -Scanning for api listing references
+2019-06-03 11:52:54 -Generating unique operation named: listUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: deleteUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: getUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: getAllUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingGET_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingHEAD_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPOST_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPUT_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPATCH_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingDELETE_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingOPTIONS_2
+2019-06-03 11:52:54 -Generating unique operation named: listUsingTRACE_2
+2019-06-03 11:52:54 -Generating unique operation named: saveUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: deleteUsingPOST_2
+2019-06-03 11:52:54 -Generating unique operation named: editUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: saveUsingPOST_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingGET_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingHEAD_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPOST_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPUT_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPATCH_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingDELETE_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingOPTIONS_2
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingTRACE_2
+2019-06-03 11:52:54 -Generating unique operation named: editUsingGET_2
+2019-06-03 11:52:54 -Generating unique operation named: editUsingHEAD_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingPOST_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingPUT_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingPATCH_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingDELETE_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingOPTIONS_1
+2019-06-03 11:52:54 -Generating unique operation named: editUsingTRACE_1
+2019-06-03 11:52:54 -Generating unique operation named: listUsingGET_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingHEAD_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPOST_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPUT_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPATCH_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingDELETE_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingOPTIONS_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingTRACE_3
+2019-06-03 11:52:54 -Generating unique operation named: listUsingGET_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingHEAD_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPOST_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPUT_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingPATCH_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingDELETE_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingOPTIONS_4
+2019-06-03 11:52:54 -Generating unique operation named: listUsingTRACE_4
+2019-06-03 11:52:54 -Generating unique operation named: addUsingGET_1
+2019-06-03 11:52:54 -Generating unique operation named: deleteUsingPOST_3
+2019-06-03 11:52:54 -Generating unique operation named: deleteUsingPOST_4
+2019-06-03 11:52:54 -Generating unique operation named: saveUsingPOST_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingGET_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingHEAD_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPOST_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPUT_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingPATCH_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingDELETE_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingOPTIONS_3
+2019-06-03 11:52:54 -Generating unique operation named: updateUsingTRACE_3
+2019-06-03 11:52:55 -Generating unique operation named: editUsingGET_3
+2019-06-03 11:52:55 -Generating unique operation named: listUsingGET_5
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPOST_4
+2019-06-03 11:52:55 -Generating unique operation named: addUsingGET_2
+2019-06-03 11:52:55 -Generating unique operation named: editUsingGET_4
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingGET_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingHEAD_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingPOST_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingPUT_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingPATCH_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingDELETE_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingOPTIONS_1
+2019-06-03 11:52:55 -Generating unique operation named: infoUsingTRACE_1
+2019-06-03 11:52:55 -Generating unique operation named: removeUsingPOST_1
+2019-06-03 11:52:55 -Generating unique operation named: saveUsingPOST_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPOST_5
+2019-06-03 11:52:55 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-06-03 11:52:55 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-06-03 11:52:55 -Generating unique operation named: deleteUsingPOST_5
+2019-06-03 11:52:55 -Generating unique operation named: getUsingGET_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingHEAD_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPOST_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPUT_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPATCH_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingDELETE_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingOPTIONS_2
+2019-06-03 11:52:55 -Generating unique operation named: getUsingTRACE_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingGET_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingHEAD_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPOST_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPUT_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPATCH_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingDELETE_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingTRACE_2
+2019-06-03 11:52:55 -Generating unique operation named: listUsingGET_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingHEAD_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPOST_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPUT_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPATCH_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingDELETE_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingOPTIONS_5
+2019-06-03 11:52:55 -Generating unique operation named: listUsingTRACE_5
+2019-06-03 11:52:55 -Generating unique operation named: saveUsingPOST_5
+2019-06-03 11:52:55 -Generating unique operation named: treeUsingGET_1
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingGET_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingHEAD_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPOST_6
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPUT_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPATCH_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingDELETE_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingOPTIONS_4
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingTRACE_4
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingGET_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingPOST_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingPUT_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-06-03 11:52:55 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-06-03 11:52:55 -Generating unique operation named: getUsingGET_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingHEAD_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPOST_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPUT_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPATCH_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingDELETE_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingOPTIONS_3
+2019-06-03 11:52:55 -Generating unique operation named: getUsingTRACE_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingGET_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingHEAD_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPOST_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPUT_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingPATCH_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingDELETE_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-06-03 11:52:55 -Generating unique operation named: getAllUsingTRACE_3
+2019-06-03 11:52:55 -Generating unique operation named: listUsingGET_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingHEAD_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPOST_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPUT_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPATCH_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingDELETE_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingOPTIONS_6
+2019-06-03 11:52:55 -Generating unique operation named: listUsingTRACE_6
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingGET_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingHEAD_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingPOST_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingPUT_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingPATCH_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingDELETE_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-06-03 11:52:55 -Generating unique operation named: queryByQUsingTRACE_1
+2019-06-03 11:52:55 -Generating unique operation named: saveUsingPOST_6
+2019-06-03 11:52:55 -Generating unique operation named: updateUsingPOST_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingGET_8
+2019-06-03 11:52:55 -Generating unique operation named: listUsingHEAD_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPOST_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPUT_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingPATCH_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingDELETE_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingOPTIONS_7
+2019-06-03 11:52:55 -Generating unique operation named: listUsingTRACE_7
+2019-06-03 11:52:55 -Generating unique operation named: getUsingGET_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingHEAD_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPOST_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPUT_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingPATCH_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingDELETE_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingOPTIONS_4
+2019-06-03 11:52:55 -Generating unique operation named: getUsingTRACE_4
+2019-06-03 11:52:56 -Generating unique operation named: saveUsingPOST_7
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingPOST_8
+2019-06-03 11:52:56 -Generating unique operation named: editUsingGET_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingHEAD_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPOST_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPUT_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPATCH_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingDELETE_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingOPTIONS_2
+2019-06-03 11:52:56 -Generating unique operation named: editUsingTRACE_2
+2019-06-03 11:52:56 -Generating unique operation named: listUsingGET_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingHEAD_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPOST_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPUT_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPATCH_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingDELETE_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingOPTIONS_8
+2019-06-03 11:52:56 -Generating unique operation named: listUsingTRACE_8
+2019-06-03 11:52:56 -Generating unique operation named: editUsingGET_6
+2019-06-03 11:52:56 -Generating unique operation named: editUsingHEAD_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPOST_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPUT_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPATCH_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingDELETE_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingOPTIONS_3
+2019-06-03 11:52:56 -Generating unique operation named: editUsingTRACE_3
+2019-06-03 11:52:56 -Generating unique operation named: listUsingGET_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingHEAD_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPOST_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPUT_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPATCH_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingDELETE_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingOPTIONS_9
+2019-06-03 11:52:56 -Generating unique operation named: listUsingTRACE_9
+2019-06-03 11:52:56 -Generating unique operation named: editUsingGET_7
+2019-06-03 11:52:56 -Generating unique operation named: editUsingHEAD_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPOST_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPUT_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPATCH_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingDELETE_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingOPTIONS_4
+2019-06-03 11:52:56 -Generating unique operation named: editUsingTRACE_4
+2019-06-03 11:52:56 -Generating unique operation named: listUsingGET_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingHEAD_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPOST_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPUT_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPATCH_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingDELETE_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingOPTIONS_10
+2019-06-03 11:52:56 -Generating unique operation named: listUsingTRACE_10
+2019-06-03 11:52:56 -Generating unique operation named: editUsingGET_8
+2019-06-03 11:52:56 -Generating unique operation named: editUsingHEAD_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPOST_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPUT_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingPATCH_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingDELETE_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingOPTIONS_5
+2019-06-03 11:52:56 -Generating unique operation named: editUsingTRACE_5
+2019-06-03 11:52:56 -Generating unique operation named: listUsingGET_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingHEAD_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPOST_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPUT_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPATCH_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingDELETE_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingOPTIONS_11
+2019-06-03 11:52:56 -Generating unique operation named: listUsingTRACE_11
+2019-06-03 11:52:56 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingGET_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-06-03 11:52:56 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-06-03 11:52:56 -Generating unique operation named: deleteUsingPOST_6
+2019-06-03 11:52:56 -Generating unique operation named: getUsingGET_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingHEAD_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingPOST_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingPUT_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingPATCH_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingDELETE_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingOPTIONS_5
+2019-06-03 11:52:56 -Generating unique operation named: getUsingTRACE_5
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingGET_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingHEAD_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingPOST_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingPUT_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingPATCH_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingDELETE_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-06-03 11:52:56 -Generating unique operation named: getAllUsingTRACE_4
+2019-06-03 11:52:56 -Generating unique operation named: listUsingGET_13
+2019-06-03 11:52:56 -Generating unique operation named: listUsingHEAD_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPOST_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPUT_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingPATCH_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingDELETE_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingOPTIONS_12
+2019-06-03 11:52:56 -Generating unique operation named: listUsingTRACE_12
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingGET_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingHEAD_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingPOST_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingPUT_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingPATCH_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingDELETE_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-06-03 11:52:56 -Generating unique operation named: queryByQUsingTRACE_2
+2019-06-03 11:52:56 -Generating unique operation named: saveUsingPOST_8
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingGET_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingHEAD_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingPOST_9
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingPUT_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingPATCH_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingDELETE_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingOPTIONS_5
+2019-06-03 11:52:56 -Generating unique operation named: updateUsingTRACE_5
+2019-06-03 11:52:56 -Starting Quartz Scheduler now
+2019-06-03 11:52:56 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-06-03 11:52:56 -Starting ProtocolHandler ["http-nio-80"]
+2019-06-03 11:52:56 -Tomcat started on port(s): 80 (http) with context path ''
+2019-06-03 11:52:56 -Started SbadminApplication in 34.106 seconds (JVM running for 41.546)
+2019-06-03 11:52:56 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-06-03 11:52:56 -==> Parameters: 
+2019-06-03 11:52:57 -<==      Total: 1
+2019-06-03 11:52:57 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-06-03 11:52:57 -==> Parameters: 9999(Integer)
+2019-06-03 11:52:57 -<==      Total: 1
+2019-06-03 11:55:08 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-03 11:55:08 -Initializing Servlet 'dispatcherServlet'
+2019-06-03 11:55:08 -Completed initialization in 43 ms
+2019-06-03 11:55:08 -Enabling session validation scheduler...
+2019-06-03 11:55:08 -请求地址 : http://localhost/login/user
+2019-06-03 11:55:08 -HTTP METHOD : GET
+2019-06-03 11:55:08 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-06-03 11:55:08 -参数 : []
+2019-06-03 11:55:08 -耗时 : 12
+2019-06-03 11:55:08 -返回值 : login/user
+2019-06-03 11:55:09 -请求地址 : http://localhost/login/getVerify
+2019-06-03 11:55:09 -HTTP METHOD : GET
+2019-06-03 11:55:09 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-06-03 11:55:09 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@1cb34668, org.apache.shiro.web.servlet.ShiroHttpServletResponse@3e0e1c1c]
+2019-06-03 11:55:10 -1297
+2019-06-03 11:55:10 -耗时 : 639
+2019-06-03 11:55:10 -返回值 : null
+2019-06-03 11:55:10 -请求地址 : http://localhost/login/user
+2019-06-03 11:55:10 -HTTP METHOD : GET
+2019-06-03 11:55:10 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-06-03 11:55:10 -参数 : []
+2019-06-03 11:55:10 -耗时 : 0
+2019-06-03 11:55:10 -返回值 : login/user
+2019-06-03 11:55:22 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-06-03 11:55:22 -==> Parameters: admin(String)
+2019-06-03 11:55:22 -<==      Total: 1
+2019-06-03 11:55:23 -请求地址 : http://localhost/login/getVerify
+2019-06-03 11:55:23 -HTTP METHOD : GET
+2019-06-03 11:55:23 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-06-03 11:55:23 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@2523fed8, org.apache.shiro.web.servlet.ShiroHttpServletResponse@7664af3]
+2019-06-03 11:55:23 -9587
+2019-06-03 11:55:23 -耗时 : 29
+2019-06-03 11:55:23 -返回值 : null
+2019-06-03 11:55:32 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-06-03 11:55:32 -==> Parameters: admin(String)
+2019-06-03 11:55:32 -<==      Total: 1
+2019-06-03 11:55:33 -请求地址 : http://localhost/login/getVerify
+2019-06-03 11:55:33 -HTTP METHOD : GET
+2019-06-03 11:55:33 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-06-03 11:55:33 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@4184d99, org.apache.shiro.web.servlet.ShiroHttpServletResponse@27c9c2]
+2019-06-03 11:55:33 -7474
+2019-06-03 11:55:33 -耗时 : 32
+2019-06-03 11:55:33 -返回值 : null
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-06-03 11:55:55 -==> Parameters: admin(String)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -请求地址 : http://localhost/system/index
+2019-06-03 11:55:55 -HTTP METHOD : GET
+2019-06-03 11:55:55 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.SystemController.Index
+2019-06-03 11:55:55 -参数 : [{}]
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 1(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: select menu_id from sys_role_menu WHERE role_id = ? 
+2019-06-03 11:55:55 -==> Parameters: 1(Integer)
+2019-06-03 11:55:55 -<==      Total: 48
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 57(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 30(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 29(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 28(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 129(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 118(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 117(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 116(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 27(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 92(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 91(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 48(Long)
+2019-06-03 11:55:55 -<==      Total: 0
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 104(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 77(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 124(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 123(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 122(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 121(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 120(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 119(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 76(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 75(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 74(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 128(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 112(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 73(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 22(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 21(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 20(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 127(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 61(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 2(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 15(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 126(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 62(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 56(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 55(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 7(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 26(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 25(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 24(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 14(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 13(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 12(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 125(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 6(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 3(Long)
+2019-06-03 11:55:55 -<==      Total: 1
+2019-06-03 11:55:55 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:55:55 -==> Parameters: 0(Long)
+2019-06-03 11:55:55 -<==      Total: 0
+2019-06-03 11:55:55 -耗时 : 310
+2019-06-03 11:55:55 -返回值 : system/index
+2019-06-03 11:57:38 -请求地址 : http://localhost/login/user;JSESSIONID=7e7ed7a4-f921-4b33-a118-ff252e50abdf
+2019-06-03 11:57:38 -HTTP METHOD : GET
+2019-06-03 11:57:38 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-06-03 11:57:38 -参数 : []
+2019-06-03 11:57:38 -耗时 : 1
+2019-06-03 11:57:38 -返回值 : login/user
+2019-06-03 11:57:38 -请求地址 : http://localhost/login/getVerify
+2019-06-03 11:57:38 -HTTP METHOD : GET
+2019-06-03 11:57:38 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-06-03 11:57:38 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@4b9e1357, org.apache.shiro.web.servlet.ShiroHttpServletResponse@1d12a450]
+2019-06-03 11:57:38 -9892
+2019-06-03 11:57:38 -耗时 : 28
+2019-06-03 11:57:38 -返回值 : null
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-06-03 11:57:47 -==> Parameters: admin(String)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -请求地址 : http://localhost/system/index
+2019-06-03 11:57:47 -HTTP METHOD : GET
+2019-06-03 11:57:47 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.SystemController.Index
+2019-06-03 11:57:47 -参数 : [{}]
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 1(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: select menu_id from sys_role_menu WHERE role_id = ? 
+2019-06-03 11:57:47 -==> Parameters: 1(Integer)
+2019-06-03 11:57:47 -<==      Total: 48
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 57(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 30(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 29(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 28(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 129(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 118(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 117(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 116(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 27(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 92(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 91(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 48(Long)
+2019-06-03 11:57:47 -<==      Total: 0
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 104(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 77(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 124(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 123(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 122(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 121(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 120(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 119(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 76(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 75(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 74(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 128(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 112(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 73(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 22(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 21(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 20(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 127(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 61(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 2(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 15(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 126(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 62(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 56(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 55(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 7(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 26(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 25(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 24(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 14(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 13(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 12(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 125(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 6(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 3(Long)
+2019-06-03 11:57:47 -<==      Total: 1
+2019-06-03 11:57:47 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:47 -==> Parameters: 0(Long)
+2019-06-03 11:57:47 -<==      Total: 0
+2019-06-03 11:57:47 -耗时 : 195
+2019-06-03 11:57:47 -返回值 : system/index
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 1(Long)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: select menu_id from sys_role_menu WHERE role_id = ? 
+2019-06-03 11:57:58 -==> Parameters: 1(Integer)
+2019-06-03 11:57:58 -<==      Total: 48
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 57(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 30(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 29(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 28(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 129(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 118(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 117(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 116(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 27(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 92(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 91(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 48(Integer)
+2019-06-03 11:57:58 -<==      Total: 0
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 104(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 77(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 124(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 123(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 122(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 121(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 120(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 119(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 76(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 75(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 74(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 128(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 112(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 73(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 22(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 21(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 20(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 127(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 61(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 2(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 15(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 126(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 62(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 56(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 55(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 7(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 26(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 25(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 24(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 14(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 13(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 12(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 125(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 6(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 3(Integer)
+2019-06-03 11:57:58 -<==      Total: 1
+2019-06-03 11:57:58 -==>  Preparing: SELECT id,parent_id,name,url,perms,type,icon,order_num,gmt_create,gmt_modified,is_deleted,gmt_delete,delete_userid,level FROM sys_menu WHERE id = ? 
+2019-06-03 11:57:58 -==> Parameters: 0(Integer)
+2019-06-03 11:57:58 -<==      Total: 0
+2019-06-03 11:57:58 -Subject does not have permission [lablog:dimterm:list]
+org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [lablog:dimterm:list]
+	at org.apache.shiro.authz.ModularRealmAuthorizer.checkPermission(ModularRealmAuthorizer.java:323)
+	at org.apache.shiro.mgt.AuthorizingSecurityManager.checkPermission(AuthorizingSecurityManager.java:137)
+	at org.apache.shiro.subject.support.DelegatingSubject.checkPermission(DelegatingSubject.java:205)
+	at org.apache.shiro.authz.aop.PermissionAnnotationHandler.assertAuthorized(PermissionAnnotationHandler.java:74)
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:84)
+	at org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor.assertAuthorized(AnnotationsAuthorizingMethodInterceptor.java:100)
+	at org.apache.shiro.authz.aop.AuthorizingMethodInterceptor.invoke(AuthorizingMethodInterceptor.java:38)
+	at org.apache.shiro.spring.security.interceptor.AopAllianceAnnotationsAuthorizingMethodInterceptor.invoke(AopAllianceAnnotationsAuthorizingMethodInterceptor.java:115)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.edu.ctbu.sbadmin.lablog.controller.DimTermController$$EnhancerBySpringCGLIB$$6aa4f5ff.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.authz.AuthorizationException: Not authorized to invoke method: public java.lang.String cn.edu.ctbu.sbadmin.lablog.controller.DimTermController.list()
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:90)
+	... 79 common frames omitted
+2019-06-03 11:58:11 -Subject does not have permission [lablog:dimterm:list]
+org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [lablog:dimterm:list]
+	at org.apache.shiro.authz.ModularRealmAuthorizer.checkPermission(ModularRealmAuthorizer.java:323)
+	at org.apache.shiro.mgt.AuthorizingSecurityManager.checkPermission(AuthorizingSecurityManager.java:137)
+	at org.apache.shiro.subject.support.DelegatingSubject.checkPermission(DelegatingSubject.java:205)
+	at org.apache.shiro.authz.aop.PermissionAnnotationHandler.assertAuthorized(PermissionAnnotationHandler.java:74)
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:84)
+	at org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor.assertAuthorized(AnnotationsAuthorizingMethodInterceptor.java:100)
+	at org.apache.shiro.authz.aop.AuthorizingMethodInterceptor.invoke(AuthorizingMethodInterceptor.java:38)
+	at org.apache.shiro.spring.security.interceptor.AopAllianceAnnotationsAuthorizingMethodInterceptor.invoke(AopAllianceAnnotationsAuthorizingMethodInterceptor.java:115)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.edu.ctbu.sbadmin.lablog.controller.DimTermController$$EnhancerBySpringCGLIB$$6aa4f5ff.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.shiro.authz.AuthorizationException: Not authorized to invoke method: public java.lang.String cn.edu.ctbu.sbadmin.lablog.controller.DimTermController.list()
+	at org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor.assertAuthorized(AuthorizingAnnotationMethodInterceptor.java:90)
+	... 79 common frames omitted
+2019-06-03 12:55:08 -Validating all active sessions...
+2019-06-03 12:55:08 -Finished session validation.  [2] sessions were stopped.
+2019-06-03 13:55:08 -Validating all active sessions...
+2019-06-03 13:55:08 -Finished session validation.  No sessions were stopped.

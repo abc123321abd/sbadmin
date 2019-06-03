@@ -1,0 +1,2028 @@
+2019-03-14 21:19:26 -Starting SbadminApplication on DESKTOP-PQO8CHD with PID 9632 (started by ？？？ in E:\idea project\lablog)
+2019-03-14 21:19:26 -The following profiles are active: dev
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:19:29 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-03-14 21:19:29 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-14 21:19:29 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 21:19:29 -Finished Spring Data repository scanning in 179ms. Found 0 repository interfaces.
+2019-03-14 21:19:30 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$925a2ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:30 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab98e600] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:31 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-03-14 21:19:32 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-03-14 21:19:32 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:32 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:19:33 -Tomcat initialized with port(s): 80 (http)
+2019-03-14 21:19:33 -Initializing ProtocolHandler ["http-nio-80"]
+2019-03-14 21:19:33 -Starting service [Tomcat]
+2019-03-14 21:19:33 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-14 21:19:33 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Users\？？？\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-14 21:19:33 -Initializing Spring embedded WebApplicationContext
+2019-03-14 21:19:33 -Root WebApplicationContext: initialization completed in 7006 ms
+2019-03-14 21:19:34 -Filter xssFilter was not registered (disabled)
+2019-03-14 21:19:35 -{dataSource-1} inited
+2019-03-14 21:19:36 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4738a206, started on Thu Mar 14 21:19:26 CST 2019
+2019-03-14 21:19:36 -Using default implementation for ThreadExecutor
+2019-03-14 21:19:36 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 21:19:36 -Quartz Scheduler v.2.2.1 created.
+2019-03-14 21:19:36 -RAMJobStore initialized.
+2019-03-14 21:19:36 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 21:19:36 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-03-14 21:19:36 -Quartz scheduler version: 2.2.1
+2019-03-14 21:19:36 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@63124022
+2019-03-14 21:19:40 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 21:19:40 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-14 21:19:40 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-14 21:19:40 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-14 21:19:40 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-14 21:19:40 -Clear EntityHelper entityTableMap cache.
+2019-03-14 21:19:42 -Context refreshed
+2019-03-14 21:19:42 -Found 1 custom documentation plugin(s)
+2019-03-14 21:19:42 -Scanning for api listing references
+2019-03-14 21:19:43 -Generating unique operation named: listUsingGET_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingHEAD_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingPUT_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingPATCH_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingDELETE_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingOPTIONS_1
+2019-03-14 21:19:43 -Generating unique operation named: listUsingTRACE_1
+2019-03-14 21:19:43 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingGET_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-03-14 21:19:43 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-03-14 21:19:43 -Generating unique operation named: deleteUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingGET_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingHEAD_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingPUT_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingPATCH_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingDELETE_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingOPTIONS_1
+2019-03-14 21:19:43 -Generating unique operation named: getUsingTRACE_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingGET_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingHEAD_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingPOST_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingPUT_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingPATCH_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingDELETE_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-03-14 21:19:43 -Generating unique operation named: getAllUsingTRACE_1
+2019-03-14 21:19:44 -Generating unique operation named: listUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingHEAD_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPUT_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPATCH_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingDELETE_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingOPTIONS_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingTRACE_2
+2019-03-14 21:19:44 -Generating unique operation named: saveUsingPOST_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingHEAD_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPUT_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPATCH_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingDELETE_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingOPTIONS_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingTRACE_1
+2019-03-14 21:19:44 -Generating unique operation named: deleteUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: editUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: saveUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingHEAD_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPUT_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPATCH_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingDELETE_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingOPTIONS_2
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingTRACE_2
+2019-03-14 21:19:44 -Generating unique operation named: addUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: deleteUsingPOST_3
+2019-03-14 21:19:44 -Generating unique operation named: deleteUsingPOST_4
+2019-03-14 21:19:44 -Generating unique operation named: saveUsingPOST_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingGET_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingHEAD_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPUT_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPATCH_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingDELETE_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingOPTIONS_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingTRACE_3
+2019-03-14 21:19:44 -Generating unique operation named: editUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingGET_3
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_4
+2019-03-14 21:19:44 -Generating unique operation named: addUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: editUsingGET_3
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingHEAD_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingPOST_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingPUT_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingPATCH_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingDELETE_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingOPTIONS_1
+2019-03-14 21:19:44 -Generating unique operation named: infoUsingTRACE_1
+2019-03-14 21:19:44 -Generating unique operation named: removeUsingPOST_1
+2019-03-14 21:19:44 -Generating unique operation named: saveUsingPOST_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_5
+2019-03-14 21:19:44 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: deleteUsingPOST_5
+2019-03-14 21:19:44 -Generating unique operation named: getUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingHEAD_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingPUT_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingPATCH_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingDELETE_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingOPTIONS_2
+2019-03-14 21:19:44 -Generating unique operation named: getUsingTRACE_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingGET_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingHEAD_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingPOST_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingPUT_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingPATCH_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingDELETE_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-03-14 21:19:44 -Generating unique operation named: getAllUsingTRACE_2
+2019-03-14 21:19:44 -Generating unique operation named: listUsingGET_4
+2019-03-14 21:19:44 -Generating unique operation named: listUsingHEAD_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPOST_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPUT_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingPATCH_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingDELETE_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingOPTIONS_3
+2019-03-14 21:19:44 -Generating unique operation named: listUsingTRACE_3
+2019-03-14 21:19:44 -Generating unique operation named: saveUsingPOST_5
+2019-03-14 21:19:44 -Generating unique operation named: treeUsingGET_1
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingGET_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingHEAD_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPOST_6
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPUT_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingPATCH_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingDELETE_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingOPTIONS_4
+2019-03-14 21:19:44 -Generating unique operation named: updateUsingTRACE_4
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingGET_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingPOST_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingPUT_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-03-14 21:19:45 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-03-14 21:19:45 -Generating unique operation named: getUsingGET_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingHEAD_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPOST_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPUT_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPATCH_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingDELETE_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingOPTIONS_3
+2019-03-14 21:19:45 -Generating unique operation named: getUsingTRACE_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingGET_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingHEAD_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPOST_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPUT_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPATCH_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingDELETE_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingTRACE_3
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_4
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingGET_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingHEAD_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPOST_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPUT_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPATCH_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingDELETE_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingTRACE_1
+2019-03-14 21:19:45 -Generating unique operation named: saveUsingPOST_6
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingPOST_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_5
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingGET_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingHEAD_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPOST_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPUT_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPATCH_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingDELETE_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingOPTIONS_4
+2019-03-14 21:19:45 -Generating unique operation named: getUsingTRACE_4
+2019-03-14 21:19:45 -Generating unique operation named: saveUsingPOST_7
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingPOST_8
+2019-03-14 21:19:45 -Generating unique operation named: editUsingGET_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingHEAD_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPOST_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPUT_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPATCH_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingDELETE_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingOPTIONS_1
+2019-03-14 21:19:45 -Generating unique operation named: editUsingTRACE_1
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_6
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_6
+2019-03-14 21:19:45 -Generating unique operation named: editUsingGET_5
+2019-03-14 21:19:45 -Generating unique operation named: editUsingHEAD_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPOST_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPUT_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPATCH_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingDELETE_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingOPTIONS_2
+2019-03-14 21:19:45 -Generating unique operation named: editUsingTRACE_2
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_7
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_7
+2019-03-14 21:19:45 -Generating unique operation named: editUsingGET_6
+2019-03-14 21:19:45 -Generating unique operation named: editUsingHEAD_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPOST_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPUT_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPATCH_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingDELETE_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingOPTIONS_3
+2019-03-14 21:19:45 -Generating unique operation named: editUsingTRACE_3
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_8
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_8
+2019-03-14 21:19:45 -Generating unique operation named: editUsingGET_7
+2019-03-14 21:19:45 -Generating unique operation named: editUsingHEAD_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPOST_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPUT_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingPATCH_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingDELETE_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingOPTIONS_4
+2019-03-14 21:19:45 -Generating unique operation named: editUsingTRACE_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_9
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_9
+2019-03-14 21:19:45 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingGET_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-03-14 21:19:45 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-03-14 21:19:45 -Generating unique operation named: deleteUsingPOST_6
+2019-03-14 21:19:45 -Generating unique operation named: getUsingGET_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingHEAD_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPOST_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPUT_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingPATCH_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingDELETE_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingOPTIONS_5
+2019-03-14 21:19:45 -Generating unique operation named: getUsingTRACE_5
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingGET_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingHEAD_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPOST_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPUT_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingPATCH_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingDELETE_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-03-14 21:19:45 -Generating unique operation named: getAllUsingTRACE_4
+2019-03-14 21:19:45 -Generating unique operation named: listUsingGET_11
+2019-03-14 21:19:45 -Generating unique operation named: listUsingHEAD_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPOST_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPUT_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingPATCH_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingDELETE_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingOPTIONS_10
+2019-03-14 21:19:45 -Generating unique operation named: listUsingTRACE_10
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingGET_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingHEAD_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPOST_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPUT_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingPATCH_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingDELETE_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-03-14 21:19:45 -Generating unique operation named: queryByQUsingTRACE_2
+2019-03-14 21:19:45 -Generating unique operation named: saveUsingPOST_8
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingGET_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingHEAD_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingPOST_9
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingPUT_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingPATCH_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingDELETE_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingOPTIONS_5
+2019-03-14 21:19:45 -Generating unique operation named: updateUsingTRACE_5
+2019-03-14 21:19:45 -Starting Quartz Scheduler now
+2019-03-14 21:19:45 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-03-14 21:19:45 -Starting ProtocolHandler ["http-nio-80"]
+2019-03-14 21:19:46 -Tomcat started on port(s): 80 (http) with context path ''
+2019-03-14 21:19:46 -Started SbadminApplication in 20.931 seconds (JVM running for 27.492)
+2019-03-14 21:19:46 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-03-14 21:19:46 -==> Parameters: 
+2019-03-14 21:19:46 -<==      Total: 1
+2019-03-14 21:19:46 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-03-14 21:19:46 -==> Parameters: 9999(Integer)
+2019-03-14 21:19:46 -<==      Total: 1
+2019-03-14 21:20:44 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 21:20:44 -Initializing Servlet 'dispatcherServlet'
+2019-03-14 21:20:44 -Completed initialization in 48 ms
+2019-03-14 21:20:44 -Enabling session validation scheduler...
+2019-03-14 21:20:45 -请求地址 : http://localhost/login/user;JSESSIONID=3681dfc9-5049-495c-b2f1-0bb565e354e5
+2019-03-14 21:20:45 -HTTP METHOD : GET
+2019-03-14 21:20:45 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-03-14 21:20:45 -参数 : []
+2019-03-14 21:20:45 -耗时 : 20
+2019-03-14 21:20:45 -返回值 : login/user
+2019-03-14 21:21:27 -请求地址 : http://localhost/login/user
+2019-03-14 21:21:27 -HTTP METHOD : GET
+2019-03-14 21:21:27 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-03-14 21:21:27 -参数 : []
+2019-03-14 21:21:27 -耗时 : 0
+2019-03-14 21:21:27 -返回值 : login/user
+2019-03-14 21:21:27 -请求地址 : http://localhost/login/getVerify
+2019-03-14 21:21:27 -HTTP METHOD : GET
+2019-03-14 21:21:27 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-03-14 21:21:27 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@4e50c227, org.apache.shiro.web.servlet.ShiroHttpServletResponse@1e18bd5a]
+2019-03-14 21:21:29 -9003
+2019-03-14 21:21:29 -耗时 : 1699
+2019-03-14 21:21:29 -返回值 : null
+2019-03-14 21:21:29 -请求地址 : http://localhost/login/user
+2019-03-14 21:21:29 -HTTP METHOD : GET
+2019-03-14 21:21:29 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-03-14 21:21:29 -参数 : []
+2019-03-14 21:21:29 -耗时 : 0
+2019-03-14 21:21:29 -返回值 : login/user
+2019-03-14 21:21:58 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-03-14 21:21:58 -==> Parameters: admin(String)
+2019-03-14 21:21:58 -<==      Total: 1
+2019-03-14 21:22:00 -请求地址 : http://localhost/login/getVerify
+2019-03-14 21:22:00 -HTTP METHOD : GET
+2019-03-14 21:22:00 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-03-14 21:22:00 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@59170984, org.apache.shiro.web.servlet.ShiroHttpServletResponse@5d851db4]
+2019-03-14 21:22:00 -6143
+2019-03-14 21:22:00 -耗时 : 39
+2019-03-14 21:22:00 -返回值 : null
+2019-03-14 21:22:07 -==>  Preparing: SELECT id,username,truename,password,dept_id,email,mobile,status,user_id_create,gmt_create,gmt_modified,sex,birth,img_url,live_address,hobby,province,city,district,is_deleted,gmt_delete,delete_userid,introduce,img,memo,role_name,role_ids,home_url,manager_id,manager_name,other_password,wxids,wxname FROM sys_user WHERE ( ( username = ? ) ) 
+2019-03-14 21:22:07 -==> Parameters: admin(String)
+2019-03-14 21:22:07 -<==      Total: 1
+2019-03-14 21:22:09 -请求地址 : http://localhost/login/getVerify
+2019-03-14 21:22:09 -HTTP METHOD : GET
+2019-03-14 21:22:09 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-03-14 21:22:09 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@11d610b6, org.apache.shiro.web.servlet.ShiroHttpServletResponse@31f676d6]
+2019-03-14 21:22:09 -2702
+2019-03-14 21:22:09 -耗时 : 41
+2019-03-14 21:22:09 -返回值 : null
+2019-03-14 21:53:33 -Starting DimTermServiceTest on DESKTOP-PQO8CHD with PID 5032 (started by ？？？ in E:\idea project\lablog)
+2019-03-14 21:53:33 -Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 21:53:33 -The following profiles are active: dev
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 21:53:38 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-03-14 21:53:39 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-14 21:53:39 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 21:53:39 -Finished Spring Data repository scanning in 132ms. Found 0 repository interfaces.
+2019-03-14 21:53:42 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:42 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$a18b8ee7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:43 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-03-14 21:53:44 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-03-14 21:53:44 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:44 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 21:53:46 -{dataSource-1} inited
+2019-03-14 21:53:48 -ApplicationContext registed-->org.springframework.web.context.support.GenericWebApplicationContext@35432107, started on Thu Mar 14 21:53:34 CST 2019
+2019-03-14 21:53:49 -Using default implementation for ThreadExecutor
+2019-03-14 21:53:49 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 21:53:49 -Quartz Scheduler v.2.2.1 created.
+2019-03-14 21:53:49 -RAMJobStore initialized.
+2019-03-14 21:53:49 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 21:53:49 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-03-14 21:53:49 -Quartz scheduler version: 2.2.1
+2019-03-14 21:53:49 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@489f62a3
+2019-03-14 21:53:59 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 21:54:00 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-14 21:54:02 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-14 21:54:02 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-14 21:54:02 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-14 21:54:02 -Clear EntityHelper entityTableMap cache.
+2019-03-14 21:54:05 -Context refreshed
+2019-03-14 21:54:05 -Found 1 custom documentation plugin(s)
+2019-03-14 21:54:05 -Scanning for api listing references
+2019-03-14 21:54:06 -Generating unique operation named: listUsingGET_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingHEAD_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingPOST_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingPUT_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingPATCH_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingDELETE_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingOPTIONS_1
+2019-03-14 21:54:06 -Generating unique operation named: listUsingTRACE_1
+2019-03-14 21:54:06 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingGET_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-03-14 21:54:06 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-03-14 21:54:06 -Generating unique operation named: deleteUsingPOST_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingGET_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingHEAD_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingPOST_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingPUT_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingPATCH_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingDELETE_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingOPTIONS_1
+2019-03-14 21:54:06 -Generating unique operation named: getUsingTRACE_1
+2019-03-14 21:54:06 -Generating unique operation named: getAllUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingHEAD_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPOST_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPUT_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPATCH_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingDELETE_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingTRACE_1
+2019-03-14 21:54:07 -Generating unique operation named: listUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingHEAD_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPUT_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPATCH_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingDELETE_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingOPTIONS_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingTRACE_2
+2019-03-14 21:54:07 -Generating unique operation named: saveUsingPOST_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingHEAD_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPOST_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPUT_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPATCH_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingDELETE_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingOPTIONS_1
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingTRACE_1
+2019-03-14 21:54:07 -Generating unique operation named: deleteUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: editUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: saveUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingHEAD_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPUT_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPATCH_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingDELETE_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingOPTIONS_2
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingTRACE_2
+2019-03-14 21:54:07 -Generating unique operation named: addUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: deleteUsingPOST_3
+2019-03-14 21:54:07 -Generating unique operation named: deleteUsingPOST_4
+2019-03-14 21:54:07 -Generating unique operation named: saveUsingPOST_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingGET_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingHEAD_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPOST_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPUT_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPATCH_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingDELETE_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingOPTIONS_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingTRACE_3
+2019-03-14 21:54:07 -Generating unique operation named: editUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingGET_3
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPOST_4
+2019-03-14 21:54:07 -Generating unique operation named: addUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: editUsingGET_3
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingHEAD_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingPOST_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingPUT_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingPATCH_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingDELETE_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingOPTIONS_1
+2019-03-14 21:54:07 -Generating unique operation named: infoUsingTRACE_1
+2019-03-14 21:54:07 -Generating unique operation named: removeUsingPOST_1
+2019-03-14 21:54:07 -Generating unique operation named: saveUsingPOST_4
+2019-03-14 21:54:07 -Generating unique operation named: updateUsingPOST_5
+2019-03-14 21:54:07 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-03-14 21:54:07 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: deleteUsingPOST_5
+2019-03-14 21:54:07 -Generating unique operation named: getUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingHEAD_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingPUT_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingPATCH_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingDELETE_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingOPTIONS_2
+2019-03-14 21:54:07 -Generating unique operation named: getUsingTRACE_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingGET_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingHEAD_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPOST_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPUT_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingPATCH_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingDELETE_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-03-14 21:54:07 -Generating unique operation named: getAllUsingTRACE_2
+2019-03-14 21:54:07 -Generating unique operation named: listUsingGET_4
+2019-03-14 21:54:07 -Generating unique operation named: listUsingHEAD_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPOST_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPUT_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingPATCH_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingDELETE_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingOPTIONS_3
+2019-03-14 21:54:07 -Generating unique operation named: listUsingTRACE_3
+2019-03-14 21:54:08 -Generating unique operation named: saveUsingPOST_5
+2019-03-14 21:54:08 -Generating unique operation named: treeUsingGET_1
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingGET_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingHEAD_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingPOST_6
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingPUT_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingPATCH_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingDELETE_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingOPTIONS_4
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingTRACE_4
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingGET_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingPOST_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingPUT_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-03-14 21:54:08 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-03-14 21:54:08 -Generating unique operation named: getUsingGET_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingHEAD_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPOST_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPUT_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPATCH_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingDELETE_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingOPTIONS_3
+2019-03-14 21:54:08 -Generating unique operation named: getUsingTRACE_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingGET_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingHEAD_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingPOST_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingPUT_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingPATCH_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingDELETE_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-03-14 21:54:08 -Generating unique operation named: getAllUsingTRACE_3
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_4
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingGET_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingHEAD_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingPOST_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingPUT_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingPATCH_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingDELETE_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-03-14 21:54:08 -Generating unique operation named: queryByQUsingTRACE_1
+2019-03-14 21:54:08 -Generating unique operation named: saveUsingPOST_6
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingPOST_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_5
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingGET_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingHEAD_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPOST_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPUT_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPATCH_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingDELETE_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingOPTIONS_4
+2019-03-14 21:54:08 -Generating unique operation named: getUsingTRACE_4
+2019-03-14 21:54:08 -Generating unique operation named: saveUsingPOST_7
+2019-03-14 21:54:08 -Generating unique operation named: updateUsingPOST_8
+2019-03-14 21:54:08 -Generating unique operation named: editUsingGET_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingHEAD_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPOST_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPUT_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPATCH_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingDELETE_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingOPTIONS_1
+2019-03-14 21:54:08 -Generating unique operation named: editUsingTRACE_1
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_6
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_6
+2019-03-14 21:54:08 -Generating unique operation named: editUsingGET_5
+2019-03-14 21:54:08 -Generating unique operation named: editUsingHEAD_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPOST_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPUT_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPATCH_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingDELETE_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingOPTIONS_2
+2019-03-14 21:54:08 -Generating unique operation named: editUsingTRACE_2
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_7
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_7
+2019-03-14 21:54:08 -Generating unique operation named: editUsingGET_6
+2019-03-14 21:54:08 -Generating unique operation named: editUsingHEAD_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPOST_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPUT_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPATCH_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingDELETE_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingOPTIONS_3
+2019-03-14 21:54:08 -Generating unique operation named: editUsingTRACE_3
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_8
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_8
+2019-03-14 21:54:08 -Generating unique operation named: editUsingGET_7
+2019-03-14 21:54:08 -Generating unique operation named: editUsingHEAD_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPOST_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPUT_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingPATCH_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingDELETE_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingOPTIONS_4
+2019-03-14 21:54:08 -Generating unique operation named: editUsingTRACE_4
+2019-03-14 21:54:08 -Generating unique operation named: listUsingGET_10
+2019-03-14 21:54:08 -Generating unique operation named: listUsingHEAD_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPOST_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPUT_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingPATCH_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingDELETE_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingOPTIONS_9
+2019-03-14 21:54:08 -Generating unique operation named: listUsingTRACE_9
+2019-03-14 21:54:08 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingGET_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-03-14 21:54:08 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-03-14 21:54:08 -Generating unique operation named: deleteUsingPOST_6
+2019-03-14 21:54:08 -Generating unique operation named: getUsingGET_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingHEAD_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPOST_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPUT_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingPATCH_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingDELETE_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingOPTIONS_5
+2019-03-14 21:54:08 -Generating unique operation named: getUsingTRACE_5
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingGET_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingHEAD_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingPOST_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingPUT_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingPATCH_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingDELETE_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-03-14 21:54:09 -Generating unique operation named: getAllUsingTRACE_4
+2019-03-14 21:54:09 -Generating unique operation named: listUsingGET_11
+2019-03-14 21:54:09 -Generating unique operation named: listUsingHEAD_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingPOST_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingPUT_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingPATCH_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingDELETE_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingOPTIONS_10
+2019-03-14 21:54:09 -Generating unique operation named: listUsingTRACE_10
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingGET_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingHEAD_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingPOST_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingPUT_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingPATCH_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingDELETE_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-03-14 21:54:09 -Generating unique operation named: queryByQUsingTRACE_2
+2019-03-14 21:54:09 -Generating unique operation named: saveUsingPOST_8
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingGET_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingHEAD_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingPOST_9
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingPUT_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingPATCH_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingDELETE_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingOPTIONS_5
+2019-03-14 21:54:09 -Generating unique operation named: updateUsingTRACE_5
+2019-03-14 21:54:09 -Starting Quartz Scheduler now
+2019-03-14 21:54:09 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-03-14 21:54:09 -Started DimTermServiceTest in 38.466 seconds (JVM running for 42.127)
+2019-03-14 21:54:09 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-03-14 21:54:10 -==> Parameters: 
+2019-03-14 21:54:10 -<==      Total: 1
+2019-03-14 21:54:10 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-03-14 21:54:10 -==> Parameters: 9999(Integer)
+2019-03-14 21:54:10 -<==      Total: 1
+2019-03-14 21:54:11 -==>  Preparing: SELECT id,name FROM dim_term 
+2019-03-14 21:54:11 -==> Parameters: 
+2019-03-14 21:54:11 -<==      Total: 4
+2019-03-14 21:54:11 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-03-14 21:54:11 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 21:54:11 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2019-03-14 21:54:11 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-03-14 21:54:11 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2019-03-14 21:54:11 -Shutting down Quartz Scheduler
+2019-03-14 21:54:11 -{dataSource-1} closed
+2019-03-14 22:20:44 -Validating all active sessions...
+2019-03-14 22:20:44 -Finished session validation.  [1] sessions were stopped.
+2019-03-14 22:54:12 -Starting DimTermServiceTest on DESKTOP-PQO8CHD with PID 3468 (started by ？？？ in E:\idea project\lablog)
+2019-03-14 22:54:12 -Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-03-14 22:54:12 -The following profiles are active: dev
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:54:16 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-03-14 22:54:17 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-14 22:54:17 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 22:54:17 -Finished Spring Data repository scanning in 112ms. Found 0 repository interfaces.
+2019-03-14 22:54:19 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51a5c850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:19 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$6ae47f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:20 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-03-14 22:54:21 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-03-14 22:54:21 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:21 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:54:23 -{dataSource-1} inited
+2019-03-14 22:54:25 -ApplicationContext registed-->org.springframework.web.context.support.GenericWebApplicationContext@3adcc812, started on Thu Mar 14 22:54:12 CST 2019
+2019-03-14 22:54:26 -Using default implementation for ThreadExecutor
+2019-03-14 22:54:26 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 22:54:26 -Quartz Scheduler v.2.2.1 created.
+2019-03-14 22:54:26 -RAMJobStore initialized.
+2019-03-14 22:54:26 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 22:54:26 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-03-14 22:54:26 -Quartz scheduler version: 2.2.1
+2019-03-14 22:54:26 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@4a6a6a69
+2019-03-14 22:54:35 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 22:54:35 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-14 22:54:36 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-14 22:54:36 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-14 22:54:36 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-14 22:54:36 -Clear EntityHelper entityTableMap cache.
+2019-03-14 22:54:39 -Context refreshed
+2019-03-14 22:54:39 -Found 1 custom documentation plugin(s)
+2019-03-14 22:54:39 -Scanning for api listing references
+2019-03-14 22:54:40 -Generating unique operation named: listUsingGET_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingHEAD_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPUT_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPATCH_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingDELETE_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingOPTIONS_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingTRACE_1
+2019-03-14 22:54:40 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingGET_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-03-14 22:54:40 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-03-14 22:54:40 -Generating unique operation named: deleteUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingGET_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingHEAD_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingPUT_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingPATCH_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingDELETE_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingOPTIONS_1
+2019-03-14 22:54:40 -Generating unique operation named: getUsingTRACE_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingGET_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingHEAD_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingPOST_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingPUT_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingPATCH_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingDELETE_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-03-14 22:54:40 -Generating unique operation named: getAllUsingTRACE_1
+2019-03-14 22:54:40 -Generating unique operation named: listUsingGET_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingHEAD_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPOST_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPUT_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingPATCH_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingDELETE_2
+2019-03-14 22:54:40 -Generating unique operation named: listUsingOPTIONS_2
+2019-03-14 22:54:41 -Generating unique operation named: listUsingTRACE_2
+2019-03-14 22:54:41 -Generating unique operation named: saveUsingPOST_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingHEAD_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPOST_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPUT_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPATCH_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingDELETE_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingOPTIONS_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingTRACE_1
+2019-03-14 22:54:41 -Generating unique operation named: deleteUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: editUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: saveUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingGET_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingHEAD_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPUT_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPATCH_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingDELETE_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingOPTIONS_2
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingTRACE_2
+2019-03-14 22:54:41 -Generating unique operation named: editUsingGET_2
+2019-03-14 22:54:41 -Generating unique operation named: editUsingHEAD_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingPOST_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingPUT_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingPATCH_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingDELETE_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingOPTIONS_1
+2019-03-14 22:54:41 -Generating unique operation named: editUsingTRACE_1
+2019-03-14 22:54:41 -Generating unique operation named: listUsingGET_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingHEAD_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPOST_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPUT_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPATCH_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingDELETE_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingOPTIONS_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingTRACE_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingGET_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingHEAD_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPOST_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPUT_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPATCH_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingDELETE_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingOPTIONS_4
+2019-03-14 22:54:41 -Generating unique operation named: listUsingTRACE_4
+2019-03-14 22:54:41 -Generating unique operation named: addUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: deleteUsingPOST_3
+2019-03-14 22:54:41 -Generating unique operation named: deleteUsingPOST_4
+2019-03-14 22:54:41 -Generating unique operation named: saveUsingPOST_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingGET_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingHEAD_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPOST_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPUT_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPATCH_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingDELETE_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingOPTIONS_3
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingTRACE_3
+2019-03-14 22:54:41 -Generating unique operation named: editUsingGET_3
+2019-03-14 22:54:41 -Generating unique operation named: listUsingGET_5
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPOST_4
+2019-03-14 22:54:41 -Generating unique operation named: addUsingGET_2
+2019-03-14 22:54:41 -Generating unique operation named: editUsingGET_4
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingHEAD_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingPOST_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingPUT_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingPATCH_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingDELETE_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingOPTIONS_1
+2019-03-14 22:54:41 -Generating unique operation named: infoUsingTRACE_1
+2019-03-14 22:54:41 -Generating unique operation named: removeUsingPOST_1
+2019-03-14 22:54:41 -Generating unique operation named: saveUsingPOST_4
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingPOST_5
+2019-03-14 22:54:41 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: deleteUsingPOST_5
+2019-03-14 22:54:41 -Generating unique operation named: getUsingGET_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingHEAD_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingPUT_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingPATCH_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingDELETE_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingOPTIONS_2
+2019-03-14 22:54:41 -Generating unique operation named: getUsingTRACE_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingGET_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingHEAD_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingPOST_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingPUT_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingPATCH_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingDELETE_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-03-14 22:54:41 -Generating unique operation named: getAllUsingTRACE_2
+2019-03-14 22:54:41 -Generating unique operation named: listUsingGET_6
+2019-03-14 22:54:41 -Generating unique operation named: listUsingHEAD_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPOST_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPUT_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingPATCH_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingDELETE_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingOPTIONS_5
+2019-03-14 22:54:41 -Generating unique operation named: listUsingTRACE_5
+2019-03-14 22:54:41 -Generating unique operation named: saveUsingPOST_5
+2019-03-14 22:54:41 -Generating unique operation named: treeUsingGET_1
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingGET_4
+2019-03-14 22:54:41 -Generating unique operation named: updateUsingHEAD_4
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingPOST_6
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingPUT_4
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingPATCH_4
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingDELETE_4
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingOPTIONS_4
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingTRACE_4
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingGET_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingPOST_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingPUT_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-03-14 22:54:42 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-03-14 22:54:42 -Generating unique operation named: getUsingGET_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingHEAD_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPOST_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPUT_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPATCH_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingDELETE_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingOPTIONS_3
+2019-03-14 22:54:42 -Generating unique operation named: getUsingTRACE_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingGET_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingHEAD_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingPOST_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingPUT_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingPATCH_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingDELETE_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-03-14 22:54:42 -Generating unique operation named: getAllUsingTRACE_3
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_6
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_6
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingGET_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingHEAD_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingPOST_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingPUT_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingPATCH_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingDELETE_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-03-14 22:54:42 -Generating unique operation named: queryByQUsingTRACE_1
+2019-03-14 22:54:42 -Generating unique operation named: saveUsingPOST_6
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingPOST_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_7
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_7
+2019-03-14 22:54:42 -Generating unique operation named: getUsingGET_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingHEAD_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPOST_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPUT_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPATCH_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingDELETE_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingOPTIONS_4
+2019-03-14 22:54:42 -Generating unique operation named: getUsingTRACE_4
+2019-03-14 22:54:42 -Generating unique operation named: saveUsingPOST_7
+2019-03-14 22:54:42 -Generating unique operation named: updateUsingPOST_8
+2019-03-14 22:54:42 -Generating unique operation named: editUsingGET_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingHEAD_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPOST_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPUT_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPATCH_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingDELETE_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingOPTIONS_2
+2019-03-14 22:54:42 -Generating unique operation named: editUsingTRACE_2
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_8
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_8
+2019-03-14 22:54:42 -Generating unique operation named: editUsingGET_6
+2019-03-14 22:54:42 -Generating unique operation named: editUsingHEAD_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPOST_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPUT_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPATCH_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingDELETE_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingOPTIONS_3
+2019-03-14 22:54:42 -Generating unique operation named: editUsingTRACE_3
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_9
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_9
+2019-03-14 22:54:42 -Generating unique operation named: editUsingGET_7
+2019-03-14 22:54:42 -Generating unique operation named: editUsingHEAD_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPOST_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPUT_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPATCH_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingDELETE_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingOPTIONS_4
+2019-03-14 22:54:42 -Generating unique operation named: editUsingTRACE_4
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_10
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_10
+2019-03-14 22:54:42 -Generating unique operation named: editUsingGET_8
+2019-03-14 22:54:42 -Generating unique operation named: editUsingHEAD_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPOST_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPUT_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingPATCH_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingDELETE_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingOPTIONS_5
+2019-03-14 22:54:42 -Generating unique operation named: editUsingTRACE_5
+2019-03-14 22:54:42 -Generating unique operation named: listUsingGET_12
+2019-03-14 22:54:42 -Generating unique operation named: listUsingHEAD_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPOST_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPUT_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingPATCH_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingDELETE_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingOPTIONS_11
+2019-03-14 22:54:42 -Generating unique operation named: listUsingTRACE_11
+2019-03-14 22:54:42 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingGET_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-03-14 22:54:42 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-03-14 22:54:42 -Generating unique operation named: deleteUsingPOST_6
+2019-03-14 22:54:42 -Generating unique operation named: getUsingGET_5
+2019-03-14 22:54:42 -Generating unique operation named: getUsingHEAD_5
+2019-03-14 22:54:42 -Generating unique operation named: getUsingPOST_5
+2019-03-14 22:54:43 -Generating unique operation named: getUsingPUT_5
+2019-03-14 22:54:43 -Generating unique operation named: getUsingPATCH_5
+2019-03-14 22:54:43 -Generating unique operation named: getUsingDELETE_5
+2019-03-14 22:54:43 -Generating unique operation named: getUsingOPTIONS_5
+2019-03-14 22:54:43 -Generating unique operation named: getUsingTRACE_5
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingGET_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingHEAD_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingPOST_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingPUT_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingPATCH_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingDELETE_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-03-14 22:54:43 -Generating unique operation named: getAllUsingTRACE_4
+2019-03-14 22:54:43 -Generating unique operation named: listUsingGET_13
+2019-03-14 22:54:43 -Generating unique operation named: listUsingHEAD_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingPOST_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingPUT_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingPATCH_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingDELETE_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingOPTIONS_12
+2019-03-14 22:54:43 -Generating unique operation named: listUsingTRACE_12
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingGET_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingHEAD_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingPOST_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingPUT_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingPATCH_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingDELETE_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-03-14 22:54:43 -Generating unique operation named: queryByQUsingTRACE_2
+2019-03-14 22:54:43 -Generating unique operation named: saveUsingPOST_8
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingGET_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingHEAD_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingPOST_9
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingPUT_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingPATCH_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingDELETE_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingOPTIONS_5
+2019-03-14 22:54:43 -Generating unique operation named: updateUsingTRACE_5
+2019-03-14 22:54:43 -Starting Quartz Scheduler now
+2019-03-14 22:54:43 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-03-14 22:54:43 -Started DimTermServiceTest in 34.45 seconds (JVM running for 38.422)
+2019-03-14 22:54:43 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-03-14 22:54:44 -==> Parameters: 
+2019-03-14 22:54:44 -<==      Total: 1
+2019-03-14 22:54:44 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-03-14 22:54:44 -==> Parameters: 9999(Integer)
+2019-03-14 22:54:44 -<==      Total: 1
+2019-03-14 22:54:44 -==>  Preparing: SELECT id,name FROM dim_term 
+2019-03-14 22:54:44 -==> Parameters: 
+2019-03-14 22:54:44 -<==      Total: 4
+2019-03-14 22:54:44 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-03-14 22:54:44 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-14 22:54:44 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2019-03-14 22:54:44 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2019-03-14 22:54:44 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2019-03-14 22:54:44 -Shutting down Quartz Scheduler
+2019-03-14 22:54:44 -{dataSource-1} closed
+2019-03-14 22:54:57 -Starting SbadminApplication on DESKTOP-PQO8CHD with PID 5212 (started by ？？？ in E:\idea project\lablog)
+2019-03-14 22:54:57 -The following profiles are active: dev
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:55:00 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-03-14 22:55:00 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-14 22:55:00 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 22:55:00 -Finished Spring Data repository scanning in 81ms. Found 0 repository interfaces.
+2019-03-14 22:55:02 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d469fe68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:02 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$eda8b576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-03-14 22:55:03 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-03-14 22:55:03 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:03 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:55:04 -Tomcat initialized with port(s): 80 (http)
+2019-03-14 22:55:04 -Initializing ProtocolHandler ["http-nio-80"]
+2019-03-14 22:55:04 -Starting service [Tomcat]
+2019-03-14 22:55:04 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-14 22:55:04 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Users\？？？\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-14 22:55:05 -Initializing Spring embedded WebApplicationContext
+2019-03-14 22:55:05 -Root WebApplicationContext: initialization completed in 6901 ms
+2019-03-14 22:55:05 -Filter xssFilter was not registered (disabled)
+2019-03-14 22:55:06 -{dataSource-1} inited
+2019-03-14 22:55:07 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@383bfa16, started on Thu Mar 14 22:54:58 CST 2019
+2019-03-14 22:55:07 -Using default implementation for ThreadExecutor
+2019-03-14 22:55:07 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 22:55:07 -Quartz Scheduler v.2.2.1 created.
+2019-03-14 22:55:07 -RAMJobStore initialized.
+2019-03-14 22:55:07 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 22:55:07 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-03-14 22:55:07 -Quartz scheduler version: 2.2.1
+2019-03-14 22:55:07 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@b8a144e
+2019-03-14 22:55:11 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 22:55:12 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-14 22:55:12 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-14 22:55:12 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-14 22:55:12 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-14 22:55:12 -Clear EntityHelper entityTableMap cache.
+2019-03-14 22:55:13 -Context refreshed
+2019-03-14 22:55:13 -Found 1 custom documentation plugin(s)
+2019-03-14 22:55:13 -Scanning for api listing references
+2019-03-14 22:55:15 -Generating unique operation named: listUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: deleteUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: getUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: getAllUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingGET_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingHEAD_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPOST_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPUT_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPATCH_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingDELETE_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingOPTIONS_2
+2019-03-14 22:55:15 -Generating unique operation named: listUsingTRACE_2
+2019-03-14 22:55:15 -Generating unique operation named: saveUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: deleteUsingPOST_2
+2019-03-14 22:55:15 -Generating unique operation named: editUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: saveUsingPOST_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingGET_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingHEAD_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPOST_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPUT_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPATCH_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingDELETE_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingOPTIONS_2
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingTRACE_2
+2019-03-14 22:55:15 -Generating unique operation named: editUsingGET_2
+2019-03-14 22:55:15 -Generating unique operation named: editUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: editUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: listUsingGET_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingHEAD_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPOST_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPUT_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPATCH_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingDELETE_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingOPTIONS_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingTRACE_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingGET_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingHEAD_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPOST_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPUT_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingPATCH_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingDELETE_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingOPTIONS_4
+2019-03-14 22:55:15 -Generating unique operation named: listUsingTRACE_4
+2019-03-14 22:55:15 -Generating unique operation named: addUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: deleteUsingPOST_3
+2019-03-14 22:55:15 -Generating unique operation named: deleteUsingPOST_4
+2019-03-14 22:55:15 -Generating unique operation named: saveUsingPOST_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingGET_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingHEAD_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPOST_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPUT_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPATCH_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingDELETE_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingOPTIONS_3
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingTRACE_3
+2019-03-14 22:55:15 -Generating unique operation named: editUsingGET_3
+2019-03-14 22:55:15 -Generating unique operation named: listUsingGET_5
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPOST_4
+2019-03-14 22:55:15 -Generating unique operation named: addUsingGET_2
+2019-03-14 22:55:15 -Generating unique operation named: editUsingGET_4
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingGET_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingHEAD_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingPUT_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingPATCH_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingDELETE_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingOPTIONS_1
+2019-03-14 22:55:15 -Generating unique operation named: infoUsingTRACE_1
+2019-03-14 22:55:15 -Generating unique operation named: removeUsingPOST_1
+2019-03-14 22:55:15 -Generating unique operation named: saveUsingPOST_4
+2019-03-14 22:55:15 -Generating unique operation named: updateUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-03-14 22:55:16 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-03-14 22:55:16 -Generating unique operation named: deleteUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: getUsingGET_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingHEAD_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPOST_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPUT_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPATCH_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingDELETE_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingOPTIONS_2
+2019-03-14 22:55:16 -Generating unique operation named: getUsingTRACE_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingGET_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingHEAD_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPOST_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPUT_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPATCH_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingDELETE_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingTRACE_2
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_5
+2019-03-14 22:55:16 -Generating unique operation named: saveUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: treeUsingGET_1
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingGET_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingHEAD_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingPOST_6
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingPUT_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingPATCH_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingDELETE_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingOPTIONS_4
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingTRACE_4
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingGET_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingPOST_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingPUT_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-03-14 22:55:16 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-03-14 22:55:16 -Generating unique operation named: getUsingGET_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingHEAD_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPOST_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPUT_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPATCH_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingDELETE_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingOPTIONS_3
+2019-03-14 22:55:16 -Generating unique operation named: getUsingTRACE_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingGET_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingHEAD_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPOST_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPUT_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingPATCH_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingDELETE_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-03-14 22:55:16 -Generating unique operation named: getAllUsingTRACE_3
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_6
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_6
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingGET_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingHEAD_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingPOST_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingPUT_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingPATCH_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingDELETE_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-03-14 22:55:16 -Generating unique operation named: queryByQUsingTRACE_1
+2019-03-14 22:55:16 -Generating unique operation named: saveUsingPOST_6
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingPOST_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_7
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_7
+2019-03-14 22:55:16 -Generating unique operation named: getUsingGET_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingHEAD_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPOST_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPUT_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPATCH_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingDELETE_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingOPTIONS_4
+2019-03-14 22:55:16 -Generating unique operation named: getUsingTRACE_4
+2019-03-14 22:55:16 -Generating unique operation named: saveUsingPOST_7
+2019-03-14 22:55:16 -Generating unique operation named: updateUsingPOST_8
+2019-03-14 22:55:16 -Generating unique operation named: editUsingGET_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingHEAD_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPOST_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPUT_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPATCH_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingDELETE_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingOPTIONS_2
+2019-03-14 22:55:16 -Generating unique operation named: editUsingTRACE_2
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_8
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_8
+2019-03-14 22:55:16 -Generating unique operation named: editUsingGET_6
+2019-03-14 22:55:16 -Generating unique operation named: editUsingHEAD_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPOST_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPUT_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPATCH_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingDELETE_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingOPTIONS_3
+2019-03-14 22:55:16 -Generating unique operation named: editUsingTRACE_3
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_9
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_9
+2019-03-14 22:55:16 -Generating unique operation named: editUsingGET_7
+2019-03-14 22:55:16 -Generating unique operation named: editUsingHEAD_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPOST_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPUT_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPATCH_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingDELETE_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingOPTIONS_4
+2019-03-14 22:55:16 -Generating unique operation named: editUsingTRACE_4
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_10
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_10
+2019-03-14 22:55:16 -Generating unique operation named: editUsingGET_8
+2019-03-14 22:55:16 -Generating unique operation named: editUsingHEAD_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPUT_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingPATCH_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingDELETE_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingOPTIONS_5
+2019-03-14 22:55:16 -Generating unique operation named: editUsingTRACE_5
+2019-03-14 22:55:16 -Generating unique operation named: listUsingGET_12
+2019-03-14 22:55:16 -Generating unique operation named: listUsingHEAD_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPOST_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPUT_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingPATCH_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingDELETE_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingOPTIONS_11
+2019-03-14 22:55:16 -Generating unique operation named: listUsingTRACE_11
+2019-03-14 22:55:16 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingGET_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-03-14 22:55:16 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-03-14 22:55:16 -Generating unique operation named: deleteUsingPOST_6
+2019-03-14 22:55:16 -Generating unique operation named: getUsingGET_5
+2019-03-14 22:55:16 -Generating unique operation named: getUsingHEAD_5
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPOST_5
+2019-03-14 22:55:16 -Generating unique operation named: getUsingPUT_5
+2019-03-14 22:55:17 -Generating unique operation named: getUsingPATCH_5
+2019-03-14 22:55:17 -Generating unique operation named: getUsingDELETE_5
+2019-03-14 22:55:17 -Generating unique operation named: getUsingOPTIONS_5
+2019-03-14 22:55:17 -Generating unique operation named: getUsingTRACE_5
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingGET_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingHEAD_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingPOST_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingPUT_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingPATCH_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingDELETE_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-03-14 22:55:17 -Generating unique operation named: getAllUsingTRACE_4
+2019-03-14 22:55:17 -Generating unique operation named: listUsingGET_13
+2019-03-14 22:55:17 -Generating unique operation named: listUsingHEAD_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingPOST_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingPUT_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingPATCH_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingDELETE_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingOPTIONS_12
+2019-03-14 22:55:17 -Generating unique operation named: listUsingTRACE_12
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingGET_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingHEAD_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingPOST_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingPUT_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingPATCH_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingDELETE_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-03-14 22:55:17 -Generating unique operation named: queryByQUsingTRACE_2
+2019-03-14 22:55:17 -Generating unique operation named: saveUsingPOST_8
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingGET_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingHEAD_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingPOST_9
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingPUT_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingPATCH_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingDELETE_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingOPTIONS_5
+2019-03-14 22:55:17 -Generating unique operation named: updateUsingTRACE_5
+2019-03-14 22:55:17 -Starting Quartz Scheduler now
+2019-03-14 22:55:17 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-03-14 22:55:17 -Starting ProtocolHandler ["http-nio-80"]
+2019-03-14 22:55:17 -Tomcat started on port(s): 80 (http) with context path ''
+2019-03-14 22:55:17 -Started SbadminApplication in 21.657 seconds (JVM running for 24.409)
+2019-03-14 22:55:17 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-03-14 22:55:17 -==> Parameters: 
+2019-03-14 22:55:17 -<==      Total: 1
+2019-03-14 22:55:17 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-03-14 22:55:17 -==> Parameters: 9999(Integer)
+2019-03-14 22:55:17 -<==      Total: 1
+2019-03-14 22:56:31 -Starting SbadminApplication on DESKTOP-PQO8CHD with PID 9944 (started by ？？？ in E:\idea project\lablog)
+2019-03-14 22:56:31 -The following profiles are active: dev
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'dictDao' and 'cn.edu.ctbu.sbadmin.common.dao.DictDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'fileDao' and 'cn.edu.ctbu.sbadmin.common.dao.FileDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'logDao' and 'cn.edu.ctbu.sbadmin.common.dao.LogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'taskDao' and 'cn.edu.ctbu.sbadmin.common.dao.TaskDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'configDao' and 'cn.edu.ctbu.sbadmin.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'deptDao' and 'cn.edu.ctbu.sbadmin.system.dao.DeptDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'menuDao' and 'cn.edu.ctbu.sbadmin.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'roleDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'roleMenuDao' and 'cn.edu.ctbu.sbadmin.system.dao.RoleMenuDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'sysLogDao' and 'cn.edu.ctbu.sbadmin.system.dao.SysLogDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'userDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -Skipping MapperFactoryBean with name 'userRoleDao' and 'cn.edu.ctbu.sbadmin.system.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2019-03-14 22:56:34 -No MyBatis mapper was found in '[cn.edu.ctbu.sbadmin.common.config, cn.edu.ctbu]' package. Please check your configuration.
+2019-03-14 22:56:34 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-14 22:56:34 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 22:56:34 -Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
+2019-03-14 22:56:35 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c87a84d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:35 -Bean 'shiroConfig' of type [cn.edu.ctbu.sbadmin.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$e1b93bde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:36 -Bean 'userRealm' of type [cn.edu.ctbu.sbadmin.system.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Bean 'cacheManager2' of type [net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Cache with name 'cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2019-03-14 22:56:37 -Added EhCache named [cn.edu.ctbu.sbadmin.system.shiro.UserRealm.authorizationCache]
+2019-03-14 22:56:37 -Bean 'sessionDAO' of type [org.apache.shiro.session.mgt.eis.MemorySessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:37 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 22:56:38 -Tomcat initialized with port(s): 80 (http)
+2019-03-14 22:56:38 -Initializing ProtocolHandler ["http-nio-80"]
+2019-03-14 22:56:38 -Starting service [Tomcat]
+2019-03-14 22:56:38 -Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-14 22:56:38 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Users\？？？\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-14 22:56:38 -Initializing Spring embedded WebApplicationContext
+2019-03-14 22:56:38 -Root WebApplicationContext: initialization completed in 6660 ms
+2019-03-14 22:56:38 -Filter xssFilter was not registered (disabled)
+2019-03-14 22:56:39 -{dataSource-1} inited
+2019-03-14 22:56:40 -ApplicationContext registed-->org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ba3f27a, started on Thu Mar 14 22:56:31 CST 2019
+2019-03-14 22:56:41 -Using default implementation for ThreadExecutor
+2019-03-14 22:56:41 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-14 22:56:41 -Quartz Scheduler v.2.2.1 created.
+2019-03-14 22:56:41 -RAMJobStore initialized.
+2019-03-14 22:56:41 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-14 22:56:41 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-03-14 22:56:41 -Quartz scheduler version: 2.2.1
+2019-03-14 22:56:41 -JobFactory set to: cn.edu.ctbu.sbadmin.common.quartz.factory.JobFactory@ddffa6c
+2019-03-14 22:56:45 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-14 22:56:45 -[THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-14 22:56:45 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-03-14 22:56:45 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-03-14 22:56:45 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-03-14 22:56:45 -Clear EntityHelper entityTableMap cache.
+2019-03-14 22:56:47 -Context refreshed
+2019-03-14 22:56:47 -Found 1 custom documentation plugin(s)
+2019-03-14 22:56:47 -Scanning for api listing references
+2019-03-14 22:56:48 -Generating unique operation named: listUsingGET_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingHEAD_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingPOST_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingPUT_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingPATCH_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingDELETE_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingOPTIONS_1
+2019-03-14 22:56:48 -Generating unique operation named: listUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: batchDeleteUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: batchRemoveUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: deleteUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: getUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: listUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingHEAD_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPUT_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPATCH_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingDELETE_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingOPTIONS_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingTRACE_2
+2019-03-14 22:56:49 -Generating unique operation named: saveUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: deleteUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: editUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: saveUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingHEAD_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPUT_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPATCH_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingDELETE_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingOPTIONS_2
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingTRACE_2
+2019-03-14 22:56:49 -Generating unique operation named: editUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: editUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: editUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: listUsingGET_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingHEAD_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPOST_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPUT_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPATCH_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingDELETE_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingOPTIONS_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingTRACE_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingGET_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingHEAD_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPOST_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPUT_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPATCH_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingDELETE_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingOPTIONS_4
+2019-03-14 22:56:49 -Generating unique operation named: listUsingTRACE_4
+2019-03-14 22:56:49 -Generating unique operation named: addUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: deleteUsingPOST_3
+2019-03-14 22:56:49 -Generating unique operation named: deleteUsingPOST_4
+2019-03-14 22:56:49 -Generating unique operation named: saveUsingPOST_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingGET_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingHEAD_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPUT_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPATCH_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingDELETE_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingOPTIONS_3
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingTRACE_3
+2019-03-14 22:56:49 -Generating unique operation named: editUsingGET_3
+2019-03-14 22:56:49 -Generating unique operation named: listUsingGET_5
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_4
+2019-03-14 22:56:49 -Generating unique operation named: addUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: editUsingGET_4
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingHEAD_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingPUT_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingPATCH_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingDELETE_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingOPTIONS_1
+2019-03-14 22:56:49 -Generating unique operation named: infoUsingTRACE_1
+2019-03-14 22:56:49 -Generating unique operation named: removeUsingPOST_1
+2019-03-14 22:56:49 -Generating unique operation named: saveUsingPOST_4
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_5
+2019-03-14 22:56:49 -Generating unique operation named: ZTreeAllUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: batchDeleteUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: deleteUsingPOST_5
+2019-03-14 22:56:49 -Generating unique operation named: getUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingHEAD_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPUT_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingPATCH_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingDELETE_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingOPTIONS_2
+2019-03-14 22:56:49 -Generating unique operation named: getUsingTRACE_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingGET_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingHEAD_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPOST_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPUT_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingPATCH_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingDELETE_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingOPTIONS_2
+2019-03-14 22:56:49 -Generating unique operation named: getAllUsingTRACE_2
+2019-03-14 22:56:49 -Generating unique operation named: listUsingGET_6
+2019-03-14 22:56:49 -Generating unique operation named: listUsingHEAD_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPOST_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPUT_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingPATCH_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingDELETE_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingOPTIONS_5
+2019-03-14 22:56:49 -Generating unique operation named: listUsingTRACE_5
+2019-03-14 22:56:49 -Generating unique operation named: saveUsingPOST_5
+2019-03-14 22:56:49 -Generating unique operation named: treeUsingGET_1
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingGET_4
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingHEAD_4
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPOST_6
+2019-03-14 22:56:49 -Generating unique operation named: updateUsingPUT_4
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPATCH_4
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingDELETE_4
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingOPTIONS_4
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingTRACE_4
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingGET_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingHEAD_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingPOST_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingPUT_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingPATCH_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingDELETE_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingOPTIONS_1
+2019-03-14 22:56:50 -Generating unique operation named: exportExcelUsingTRACE_1
+2019-03-14 22:56:50 -Generating unique operation named: getUsingGET_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingHEAD_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPOST_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPUT_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPATCH_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingDELETE_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingOPTIONS_3
+2019-03-14 22:56:50 -Generating unique operation named: getUsingTRACE_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingGET_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingHEAD_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPOST_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPUT_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPATCH_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingDELETE_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingOPTIONS_3
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingTRACE_3
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_6
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_6
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingGET_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingHEAD_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPOST_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPUT_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPATCH_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingDELETE_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingOPTIONS_1
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingTRACE_1
+2019-03-14 22:56:50 -Generating unique operation named: saveUsingPOST_6
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPOST_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_7
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_7
+2019-03-14 22:56:50 -Generating unique operation named: getUsingGET_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingHEAD_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPOST_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPUT_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPATCH_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingDELETE_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingOPTIONS_4
+2019-03-14 22:56:50 -Generating unique operation named: getUsingTRACE_4
+2019-03-14 22:56:50 -Generating unique operation named: saveUsingPOST_7
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPOST_8
+2019-03-14 22:56:50 -Generating unique operation named: editUsingGET_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingHEAD_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPOST_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPUT_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPATCH_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingDELETE_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingOPTIONS_2
+2019-03-14 22:56:50 -Generating unique operation named: editUsingTRACE_2
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_8
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_8
+2019-03-14 22:56:50 -Generating unique operation named: editUsingGET_6
+2019-03-14 22:56:50 -Generating unique operation named: editUsingHEAD_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPOST_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPUT_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPATCH_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingDELETE_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingOPTIONS_3
+2019-03-14 22:56:50 -Generating unique operation named: editUsingTRACE_3
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_9
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_9
+2019-03-14 22:56:50 -Generating unique operation named: editUsingGET_7
+2019-03-14 22:56:50 -Generating unique operation named: editUsingHEAD_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPOST_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPUT_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPATCH_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingDELETE_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingOPTIONS_4
+2019-03-14 22:56:50 -Generating unique operation named: editUsingTRACE_4
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_10
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_10
+2019-03-14 22:56:50 -Generating unique operation named: editUsingGET_8
+2019-03-14 22:56:50 -Generating unique operation named: editUsingHEAD_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPOST_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPUT_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingPATCH_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingDELETE_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingOPTIONS_5
+2019-03-14 22:56:50 -Generating unique operation named: editUsingTRACE_5
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_11
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_11
+2019-03-14 22:56:50 -Generating unique operation named: batchDeleteUsingPOST_3
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingGET_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingHEAD_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingPOST_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingPUT_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingPATCH_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingDELETE_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingOPTIONS_2
+2019-03-14 22:56:50 -Generating unique operation named: batchRemoveUsingTRACE_2
+2019-03-14 22:56:50 -Generating unique operation named: deleteUsingPOST_6
+2019-03-14 22:56:50 -Generating unique operation named: getUsingGET_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingHEAD_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPOST_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPUT_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingPATCH_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingDELETE_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingOPTIONS_5
+2019-03-14 22:56:50 -Generating unique operation named: getUsingTRACE_5
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingGET_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingHEAD_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPOST_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPUT_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingPATCH_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingDELETE_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingOPTIONS_4
+2019-03-14 22:56:50 -Generating unique operation named: getAllUsingTRACE_4
+2019-03-14 22:56:50 -Generating unique operation named: listUsingGET_13
+2019-03-14 22:56:50 -Generating unique operation named: listUsingHEAD_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPOST_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPUT_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingPATCH_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingDELETE_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingOPTIONS_12
+2019-03-14 22:56:50 -Generating unique operation named: listUsingTRACE_12
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingGET_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingHEAD_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPOST_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPUT_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingPATCH_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingDELETE_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingOPTIONS_2
+2019-03-14 22:56:50 -Generating unique operation named: queryByQUsingTRACE_2
+2019-03-14 22:56:50 -Generating unique operation named: saveUsingPOST_8
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingGET_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingHEAD_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPOST_9
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPUT_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingPATCH_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingDELETE_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingOPTIONS_5
+2019-03-14 22:56:50 -Generating unique operation named: updateUsingTRACE_5
+2019-03-14 22:56:50 -Starting Quartz Scheduler now
+2019-03-14 22:56:50 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-03-14 22:56:51 -Starting ProtocolHandler ["http-nio-80"]
+2019-03-14 22:56:51 -Tomcat started on port(s): 80 (http) with context path ''
+2019-03-14 22:56:51 -Started SbadminApplication in 21.568 seconds (JVM running for 24.061)
+2019-03-14 22:56:51 -==>  Preparing: SELECT count(0) FROM sys_task 
+2019-03-14 22:56:51 -==> Parameters: 
+2019-03-14 22:56:51 -<==      Total: 1
+2019-03-14 22:56:51 -==>  Preparing: SELECT id,cron_expression,method_name,is_concurrent,description,update_by,bean_class,create_date,job_status,job_group,update_date,create_by,spring_bean,job_name FROM sys_task LIMIT ? 
+2019-03-14 22:56:51 -==> Parameters: 9999(Integer)
+2019-03-14 22:56:51 -<==      Total: 1
+2019-03-14 22:57:10 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 22:57:10 -Initializing Servlet 'dispatcherServlet'
+2019-03-14 22:57:10 -Completed initialization in 40 ms
+2019-03-14 22:57:10 -Enabling session validation scheduler...
+2019-03-14 22:57:10 -请求地址 : http://localhost/login/user
+2019-03-14 22:57:10 -HTTP METHOD : GET
+2019-03-14 22:57:10 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-03-14 22:57:10 -参数 : []
+2019-03-14 22:57:10 -耗时 : 16
+2019-03-14 22:57:10 -返回值 : login/user
+2019-03-14 22:57:11 -请求地址 : http://localhost/login/getVerify
+2019-03-14 22:57:11 -HTTP METHOD : GET
+2019-03-14 22:57:11 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.getVerify
+2019-03-14 22:57:11 -参数 : [org.apache.shiro.web.servlet.ShiroHttpServletRequest@1052c228, org.apache.shiro.web.servlet.ShiroHttpServletResponse@66c84cf5]
+2019-03-14 22:57:11 -请求地址 : http://localhost/login/user;JSESSIONID=9801a341-07bd-42bf-96cb-b302cc0477ac
+2019-03-14 22:57:11 -HTTP METHOD : GET
+2019-03-14 22:57:11 -CLASS_METHOD : cn.edu.ctbu.sbadmin.system.controller.LoginController.User
+2019-03-14 22:57:11 -参数 : []
+2019-03-14 22:57:11 -耗时 : 1
+2019-03-14 22:57:11 -返回值 : login/user
+2019-03-14 22:57:11 -0768
+2019-03-14 22:57:11 -耗时 : 614
+2019-03-14 22:57:11 -返回值 : null
