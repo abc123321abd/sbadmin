@@ -9,7 +9,7 @@
 技术选型
 
 1、后端
-
+~~~
 核心框架：Spring Boot
 安全框架：Apache Shiro
 模板引擎：Thymeleaf
@@ -18,6 +18,8 @@
 缓存框架：Ehcache 、Redis
 日志管理：SLF4J
 工具类：Apache Commons、Jackson
+
+~~~
 
 2、前端
 
